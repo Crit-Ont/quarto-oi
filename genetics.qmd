@@ -1,0 +1,11 @@
+# The genetics game {#sec-genetics}
+
+
+Instead of requiring rational thought, the "payoffs" in genetic game theory are biological fitness (survival and reproduction rates). The foundational components include:
+
+- Evolutionarily Stable Strategy (ESS): Formalized by John Maynard Smith and George R. Price in 1973, an ESS is a strategy that, if adopted by all members of a population, cannot be invaded by any alternative strategy. If everyone adopts an ESS, natural selection cannot improve upon it.
+- The Prisoner's Dilemma & Cooperation: Game theory explains how cooperation and altruism can evolve. In the classic Prisoner's Dilemma, defecting yields the highest individual reward. However, through mechanisms like kin selection (where you share genes with relatives), a "cooperative" gene can ensure its own propagation across the population, even at the expense of the individual.
+- Signaling Games: Researchers have found that genes within the genome essentially participate in signaling games. Genes act as senders and receivers of signals, adopting strategies of deception, imitation, cooperation, and competition to influence cellular biochemistry and gene expression.
+- The Gene's Eye View: Popularized by Richard Dawkins, this perspective frames the individual organism merely as a "vehicle" or "survival machine" that genes use to play the game of life and maximize their representation in future generations.
+
+@MaynardSmith1973, @MaynardSmith1982, @Dawkins1976, @MasseyMishra2018, @MoleculesAsPlayers2014, @McGlothlin2022

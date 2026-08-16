@@ -1,0 +1,86 @@
+# An Ontology of Complex Systems  {#sec-ontology-of-complex-systems}
+
+** Place holder for ontology of complex systems **
+
+An ontology of complex systems studies the fundamental entities, properties, structures, and relations that define systems characterized by non-linearity, emergence, and feedback loops. Unlike reductionist frameworks that analyze isolated parts, this branch of metaphysics focuses on how wholes relate to their parts. [1, 2, 3, 4, 5] 
+
+## Key Foundational Concepts
+
+* Emergence: Ontological status given to macro-level properties that cannot be reduced to, or predicted by, the isolated components of a system. [6, 7] 
+* Non-linearity: Causal relationships where outputs are disproportionate to inputs, meaning small changes can trigger massive, unpredictable systemic shifts. [8, 9] 
+* Downward Causation: The controversial concept that the emergent macro-structure of a system can actively constrain or influence the behavior of its micro-parts. [10, 11, 12] 
+* System Boundaries: The problematic definition of where a complex system ends and its environment begins, as boundaries are often fluid, open, and dynamic. [13, 14, 15, 16] 
+
+## Major Ontological Debates
+
+### 1. Substance vs. Process Ontology
+
+* Substance view: Traditional ontologies view the world as a collection of static things (substances) that possess changing properties.
+* Process view: Complex systems theorists often argue that processes are more fundamental than things. A complex system is not a static object, but a continuous stabilization of energy and information flow. [17, 18, 19, 20, 21] 
+
+### 2. Reductionism vs. Emergentism
+
+* Ontological Reductionism: The belief that a complex system is "nothing but" the sum of its fundamental physical parts.
+* Ontological Emergentism: The view that complex systems introduce genuinely new layers of reality with unique causal powers that cannot be captured by the laws of physics alone. [22, 23] 
+
+### 3. Realism of Macro-Structures
+
+* Epistemic Realism: The stance that concepts like "the economy," "an ecosystem," or "the mind" are merely useful shorthand descriptions for human convenience.
+* Ontological Realism: The assertion that these complex macro-structures exist objectively in reality, possessing independent causal power. [24, 25] 
+
+## Applications to Artificial Intelligence
+In the context of Barry Smith and Jobst Landgrebe's work (Why Machines Will Never Rule the World), this ontology is used to argue against the possibility of Artificial General Intelligence (AGI). They contend that because the human mind-brain is an open, non-linear complex system, its states cannot be formalized into the static, computable data structures required by digital computers. [26] 
+
+
+
+[1] [https://pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12171231/)
+
+[2] [https://peer.asee.org](https://peer.asee.org/applying-complexity-theory-and-project-based-learning-onto-project-designs-of-complex-computing-systems.pdf)
+
+[3] [https://www.cambridge.org](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/98AA70D1770EE2CDD81F7AE56ACAB6FA/9781009069069AR.pdf/formal-ontology.pdf)
+
+[4] [https://www.resilience.org](https://www.resilience.org/stories/2023-12-18/cultural-obsolescence-ontological-revolution-bringing-philosophy-into-the-21st-century/)
+
+[5] [https://pressbooks.openeducationalberta.ca](https://pressbooks.openeducationalberta.ca/saitsystemsthinking/chapter/what-philosophy-is-2/)
+
+[6] [https://medium.com](https://medium.com/age-of-awareness/understanding-complexity-a-prerequisite-for-sustainable-design-fd45990e3bd6)
+
+[7] [https://pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC4626623/)
+
+[8] [https://academic.oup.com](https://academic.oup.com/cz/article/66/1/1/5477426)
+
+[9] [https://www.intechopen.com](https://www.intechopen.com/books/1004643)
+
+[10] [https://www.tandfonline.com](https://www.tandfonline.com/doi/full/10.1080/02698595.2014.953342)
+
+[11] [https://www.self-organization.org](http://www.self-organization.org/results/book/EmergenceCausalitySelf-Organisation.pdf)
+
+[12] [https://www.facebook.com](https://www.facebook.com/RoyalSocietyPublishing/posts/from-climate-systems-and-ecological-networks-to-the-neural-circuitry-of-the-brai/1551940960227342/)
+
+[13] [https://sebokwiki.org](https://sebokwiki.org/wiki/The_Nature_of_Systems)
+
+[14] [https://dokumen.pub](https://dokumen.pub/an-introduction-to-complex-systems-society-ecologyand-nonlinear-dynamics-2nbsped-9783030631673-3030631672.html)
+
+[15] [https://www.tandfonline.com](https://www.tandfonline.com/doi/full/10.1080/14767430.2023.2264139)
+
+[16] [https://onlinelibrary.wiley.com](https://onlinelibrary.wiley.com/doi/full/10.1002/sres.3015)
+
+[17] [https://www.christopherroosen.com](https://www.christopherroosen.com/blog/2023/8/29/oouid-object-modelling-for-experience-anatomy)
+
+[18] [https://link.springer.com](https://link.springer.com/content/pdf/10.1007/978-94-007-1044-3.pdf)
+
+[19] [https://www.tandfonline.com](https://www.tandfonline.com/doi/full/10.1080/00048402.2021.1931378)
+
+[20] [https://www.mdpi.com](https://www.mdpi.com/2409-9287/5/4/41)
+
+[21] [https://sk.sagepub.com](https://sk.sagepub.com/ency/edvol/geography/chpt/complex-systems-models)
+
+[22] [https://dl.acm.org](https://dl.acm.org/doi/fullHtml/10.1145/2209249.2209268)
+
+[23] [https://www.iit.wiki](https://www.iit.wiki/foundations)
+
+[24] [https://methods.sagepub.com](https://methods.sagepub.com/ency/edvol/download/encyclopedia-of-action-research/chpt/ontology.pdf)
+
+[25] [https://bridgeresearchconsulting.com](https://bridgeresearchconsulting.com/blog/post/ontology-and-epistemology-in-realism)
+
+[26] [https://dataskeptic.com](https://dataskeptic.com/blog/episodes/2023/why-machines-will-never-rule-the-world)

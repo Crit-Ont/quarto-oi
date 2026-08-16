@@ -1,0 +1,117 @@
+# The Ontology of Dispositions and Objective Chance {#sec-The-ontology-of-dispositions}
+
+The motivation for analysing the ontology of dispositions is to understand partial causes and objective chance. It is objective chance that is the stronger interest here, motivated by wanting to understand the behaviour of basic entities at the inorganic ontic level. That is, entities that fall within the remit of quantum physics.
+
+Dispositional properties, as described by Anjum and Mumford [@anjum2018], will be used to clarify how there can be properties of quantum entities that cause quantifiable property values to appear and influence other objects. This will develop into a dispositional understanding of probabilities in quantum mechanics.
+
+While it is easy to appreciate dispositional properties intuitively, it can be harder to make the concept precise enough to be useful in constructing a scientific theory. To help, the following definitions will be used:
+
+- **Definition 1:** A **disposition** is a property (such as solubility, fragility, elasticity) whose actualisation entails that the thing which has the property would change, or bring about some change, under certain conditions.
+- **Definition 2:** A **dispositional power** is a physically existing dispositional property of an entity.
+
+## Intuitive vs. Quantum Dispositions
+
+In everyday use, to say that some object is soluble is to say that it would dissolve if put in some liquid. To say that something is fragile is to say that it would break if, for instance, dropped in suitable circumstances; to say that something is elastic is to say that it would stretch when pulled. The fragility (solubility, elasticity) is a disposition; the breaking (dissolving, stretching) is the actualisation of the disposition.
+
+These examples are intuitively uncontroversial, but position and momentum are not classical dispositional properties of a particle. Results such as that of Kochen and Specker [@kochen1967] show that the quantum situation is more subtle than dispositional properties such as solubility and elasticity because they demonstrate a contradiction in assuming that it is possible to assign simultaneously values to all observable properties in all states. Their result, although called a paradox in their paper, indicates the need for an ontology that deals with this more subtle reality.
+
+There is still ongoing debate about the nature of dispositions and key elements of this debate are outlined in Mumford [@mumford2011]. However, the application in physics makes the ontology of causal powers the more attractive interpretation of the nature of dispositions [@anjum2018b]. These powers exist and can be independent of an observer.
+
+## Popper and Propensity
+
+With the motivation to provide an objective interpretation of chance in quantum mechanics, Popper [@popper1967], [@popper1982] took a significant step towards a theory of dispositional properties. He took the position that quantum mechanics is a statistical description of the behaviour of physical entities and introduced dispositional properties through his propensity interpretation of probability:
+
+> "...waves (even those of the second quantization) are mathematical representations of propensities, or of dispositional properties, of the physical situation (such as the experimental set-up), interpretable as propensities of the particles to take up certain states."
+
+Popper proposed that the wave aspect of quantum mechanics determines the tendency of the particles to assume specific states under certain conditions, but with the strength of this disposition given by a probability. However, Popper developed his thinking prior to the demonstration that it is impossible, in general, to assign intrinsic values to all observable properties in all states, and he did not completely develop the ontological consequences. Popper remained committed to a physics in which particles have properties that take values as in classical physics but that the quantum theory provides a statistical description of that reality.
+
+## Properties and Fields of Sense
+
+It is proposed here that properties of a physical entity need not all take values simultaneously for them to be physically existing properties. Dispositional properties are properties that govern how the entity tends to appear in various contexts. For example, a separate physical system may be of the form that couples to an electron's spin in a specific direction and instantiate a value for it. That would be how the electron spin appears to that system.
+
+In the dispositional theory developed in this investitgation, there are properties—objective causal powers—and in addition, the probabilistic appearance of the properties as property values. The concepts required to clarify what is meant by "to exist" and "to have a property" are set out in *Why critical ontology?* (@sec-Why_critical_ontology) and *Fields of Sense* (@sec-field-of-sense).
+
+Dispositional properties cannot themselves appear in a **Field of Sense**, but their effects can. This is the point where the modification of the Field of Sense ontology is used that recognises that there are properties of objects that affect appearances but do not themselves appear. This modification means that Fields of Sense do not provide a complete ontology, contrary to what seems to be proposed by Markus Gabriel [@gabriel2015].
+
+A dispositional property such as fragility appears if the fragile object breaks—on falling from a table, for example. This is how it appears in a domestic Field of Sense. The fragile object, for example a porcelain cup, exists and appears in the domestic scene even if it does not break. It also has properties that are not dispositional; for example, it has a mass. So, an object can have non-dispositional properties that pin it down in a context. The electron has the properties of charge and (rest) mass that pin it down in the physical universe in which it has (as will be explained elsewhere) dispositional spin, position, and momentum.
+
+### Summary of Ontological Position
+
+The position taken on the ontology of dispositions is:
+
+1. Physical objects have at least one property that appears or causes a value to appear in some Field of Sense.
+2. Dispositional powers cause property values to appear in Fields of Sense.
+3. Physical dispositions are properties of some physical objects.
+
+## Concepts of causal powers
+
+The concept of dispositions has played a key role in the formulation of objective quantum chance in this blog. However, there is ambiguity about what these are as powers. Ruth Porter Groff [@groff2021] has helpfully addressed this issue and identified four senses of the term. She identifies dispositional power to be conceptualised as an:
+
+- Activity
+- Capacity
+- Essence
+- Necessitation.
+
+While Groff indicates that there is a further task to work out which is correct in a given context. That is, depending on what is (what the world is like), there could be powers of distinct types. For example, at the various levels of reality (Hartmann) different concepts could play their part. The intention is that clarity on which concept of power applies will strengthen any theory of quantum chance.
+
+These concepts of powers need to be contrasted with what is called the Humean view that there are no necessary connections or causes in nature. That is, there are no powers.
+
+### Activity
+
+Consider a film in which each frame is static. Playing the film gives the impression of movement or activity. If activity in the world is like the film, then activity is an illusion or a metaphor. In which case activity is not an aspect of how things are, and the ontology can be called passive. If activity is not just a sequence of static configurations, then activity may not be an illusion. We can follow Groff and use the term anti-passivist to refer to the opinion that activity is a real and irreducible component of the world.
+
+Activity is taken to cover a range of things. Movement, deliberation (moving away from the visual film example), inquiry and chemical reaction (to take an inorganic example). Any instance of causation is an activity.
+
+The view that there is activity in the world has common sense on its side. For example, action as captured by verbs as part of the deep structure of language.
+
+From this perspective, to say that things in the world have causal powers is to say that things engage in activity and are able to do. Reality is in this sense genuinely, irreducibly, non-metaphorically dynamic. In contrast Esfeld's [@esfeld2017] primitive ontology, that is in favour with some who defend the Bohmian version of Quantum Mechanics, is passive and at best kinematic. It is an example of an extreme (or to use Esfeld's own term Super) Humean ontology.
+
+Real activity contrasts with the Humean view that inanimate matter is essentially passive and never intrinsically active. In real activity the action of things depends on their causal powers. Examples of activity, from @cartwright2007: 
+
+1. The carburettor feeds gasoline and air to a car’s engine ...
+2. The pistons suck air in through the chamber...
+3. The low-pressure air sucks gasoline out of a nozzle ...
+4. The throttle valve allows air to flow through the nozzle ...
+5. Pressing the pedal opens the throttle valve more, speeding the airflow and sucking in more gasoline...
+6. …
+
+These examples indicate that mechanisms can undertake activity.
+
+### Capacity
+
+A capacity is a way that something presently is, such that it could be a way that it presently is not. The phenomenon of a capacity is thus inherently modal, invoking possibility. That is capacity is the potential to be in a possible state for that thing. This type of potentiality is attached to the nature of a thing and is sometimes called real, or metaphysical possibility, in contrast to logical possibility.
+
+A capacity may be engaged in activity but there is nothing about the concept of a real possibility that requires realism about activity to be either built into it or entailed by it. A power, as a capacity, is a property that need not be fully actualised in the present in order to exist.
+
+Capacities are properties that include, as part of their identity in the present, non-actualized but nevertheless real potential manifestations. By contrast, for the Humean the only properties that exist are categorical properties; properties that are fully occurrent or actual.
+
+### Essence
+
+Essentialism is when things (or some kinds of things) are such that they could not be, in part or in full, otherwise without ceasing to be what they are. Among dispositionalists, Bird @bird2007 defines powers, or potencies, as fundamental properties whose identities are not just dispositional, but fixed. A power as an essence is to be a property whose identity is essential to it.
+
+### Necessitation
+
+Necessitation is when one thing is the case, some other thing must be the case. A necessary connection is a power in this sense. Equating powers with necessary connections is proposed by Armstrong @armstrong2005.
+
+It is not clear that even those anti-passivists who are most focused on defending the reality of necessary connections (in the name of defending the notion of a law) do believe in metaphysical necessitation.
+
+What is meant by the term ‘metaphysical necessitation’? To answer this, we need to know
+
+- whether one who affirms it believes
+  - that things of a given kind necessarily tend to behave in one way or another, or
+  - that they must behave in one way or another; and also
+- whether or not one who affirms the existence of metaphysical necessitation holds that given behaviours necessarily bring about assigned outcomes.
+
+Accepting the above would tend someone strongly towards metaphysical determinism and intuitively this would be a natural consequence of necessitation. However, it may be that a version of metaphysical necessity that commits only to the existence of necessary tendencies does not translate into a commitment to what may be called ‘causal necessitarianism,’ or even hard determinism.
+
+## Conclusion
+
+It is conceivable that all the concepts described above have role to play in understanding the role of powers in the world. However, from the posts in this blog on quantum physics and in particular quantum chance it is capacity that seems to be the best fit. This is because the potential to have a physical property is attached to a physical object and possibilities are captured by the set of possible values that can be made actual. For example, an electron has the property of spin with the potential to take certain value. The possible values that can be actualised and with whichever probabilities depends on this potential and the context the particle find itself in.
+
+The concept of activity also has causal force but seems better suited to powers of designed mechanism or psychological or social situations. If a theory can be developed of what gives rise to the occurrence of an actual event in Quantum Mechanics, then activity may be a valid concept for the power in question.
+
+Essence plays a role in quantum chance in that the power that governs the tendency for an object, such as an electron, to take particular values of spin is an essential property of an electron. That is, an electron would not be an electron if spin and quantum chance were not aspects of its state.
+
+Necessary connections have a role to play in a physical theory even in the presence of objective chance. The evolution of the wavefunction governed by the Schrödinger equation is deterministic making the state of the object necessarily connected to its state at an earlier time.
+
+However, it is proposed that potentiality and possibility are the key concepts, equivalent to capacity, which play the key role in the developing theory of quantum chance. The most complete treatment to date of powers as potentiality and possibility is by  @vetter2015 whose classification of potentiality as a localised modality and possibility as a non-localised modality looks promising. We may then have the quantum state of the electron representing the chance potential to take certain spin values while the possible spin values that can be actualised will depend on the non-localised situation that constrains the quantum state.

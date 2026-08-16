@@ -1,0 +1,81 @@
+# Modal categories and quantum chance {#sec-quantum_modal_ontology}
+
+## Introduction
+
+The motivation for examining modal categories is to provide a more refined account of the ontology of dispositions and chance in quantum mechanics. Therefore, the emphasis here will be on the *real sphere*, although the modes apply also in the *ideal sphere* but in a way appropriate to that sphere. 
+
+By analyzing how different interpretations of quantum theory handle the transitions between possibility, contingency, necessity, and actuality, we can uncover the underlying implicit ontologies that distinguish these frameworks.
+
+## The Hierarchy of Modal Categories
+
+Following the ontological framework laid out by Nicolai @hartmann1937, we distinguish between positive and negative modes of being. Intuitively, necessity is more than actuality, and actuality is more than possibility. This provides a clear sense of direction because the lower positive mode is contained within the higher:
+
+$$\text{Possibility} \subset \text{Actuality} \subset \text{Necessity}.$$
+
+What is actual must at least be possible, and what is necessary must at least be actual.
+
+### Positive Modes of Being
+* **Necessity:** Not being able to be otherwise.
+* **Actuality:** Being this way and not otherwise.
+* **Possibility:** Being able to be one way or not.
+
+### Negative Modes of Being
+Conversely, the negative modes offer descending degrees of definiteness and being:
+* **Contingency:** Not being necessary (also being able to be different).
+* **Non-actuality:** Not being so.
+* **Impossibility:** Not able to be so.
+
+With the negative modes, **impossibility** is a minimum of being, representing extreme non-being. **Contingency** is fundamentally the non-existence of necessity. The definiteness of the way of being is less even in non-actuality than in contingency, and even less in impossibility than in non-actuality.
+
+Of the three negative modes, it is **contingency** that will be the most significant for our needs in quantum mechanics because it is a border case with a trace of positivity, providing a minimum opening to *being-so*.
+
+## Modal Profiles of Quantum Interpretations
+
+To illustrate how these modes apply, consider the measurement of a spin component of a quantum object. Empirically, it can take only one of two values: $\pm \hbar/2$. There are at least five descriptions of the world which are modally distinct in the real sphere.
+
+### Standard Quantum Mechanics
+In standard quantum mechanics [@ismael2021], it is contingent (not necessary) for a spin component to take only one of these two values. The language of "uncertainty" is inappropriate in a world described by standard quantum mechanics. The Heisenberg Uncertainy relationship, $\Delta x \Delta p \ge \hbar$, still hold of course but should be interpreted as a relationship between ranges of possibility for physical values.
+The values are not merely hidden; they have no *actual* being until they come into existence. 
+
+Standard quantum mechanics does not provide a mechanism to describe the transition from contingency to actuality. It goes no further than to describe possibilities and the probability of them becoming actual in a context.
+
+### Bohmian Mechanics
+In a world described by Bohmian Mechanics [@durrteufel2009], the spin wavefunction guides the electron to take one of two values after following a determined trajectory. For every exact starting point of the electron, the end spin state is fully determined. 
+
+It is only due to the practical impossibility of determining the starting point that makes the spin value seem contingent. Therefore, it can be said to be **epistemically contingent** but not so in reality. In the exactly specified situation, the value that becomes actual does so **necessarily**.
+
+### Ghirardi–Rimini–Weber (GRW) Theory
+
+#### Probabilistic Interpretation
+If the world is as described by the Ghirardi, Rimini, and Weber (GRW) theory [@grw1986] with the wavefunction still providing probabilities of outcomes, the ontological situation is structurally similar to standard quantum mechanics. This may seem puzzling because this theory is explicitly intended to dispel the mystery of quantum measurement (or, more generally, actuality). However, even after the spontaneous wavepacket reduction given by the GRW mechanism, some contingency remains; or, if the spin component value is actualized due to the spontaneous reduction, nothing is explained by it—it is merely posited.
+
+##### Mass Density Interpretation
+There is a distinct version of the GRW theory [@egg2014primitive] in which the wavefunction provides a **mass density** of the particle rather than a probability density. In typical situations, the mass density will spontaneously reduce to a physical configuration consistent with either $+\hbar/2$ or $-\hbar/2$.
+
+### The "Many-Worlds" Description
+In the "Many-Worlds" description [@everett1957 , @wallace2012], the world is infinitely larger than can be observed. Only one of an infinite set of sub-worlds is observable to us. The spin component takes both values on two sub-worlds that are empirically separate. Through correlation, it is known that if in one sub-world the spin takes the value $+\hbar/2$, then in the other it takes $-\hbar/2$. In this description of the world, all values are **actualized by necessity**.
+
+### Summary Matrix
+
+| Interpretation | Status of Outcomes | Ontological Category | Role of Chance |
+|---|---|---|---|
+| **Standard QM** | Contingent | Objective Real | Fundamental transition without physical mechanism |
+| **Bohmian Mechanics** | Necessary | Epistemic | Practical ignorance of exact starting trajectories |
+| **GRW (Probabilistic)** | Contingent / Posited | Objective Real | Spontaneous reduction mechanism |
+| **GRW (Mass Density)** | Physically Reduced | Objective Real | Continuous physical transformation |
+| **Many-Worlds** | Necessary | Objective Real | Multi-verse branching across sub-worlds |
+
+## 3. Quantum Chance and the Problem of Actualization
+
+When the mathematical formulation of quantum theory brings probabilities rather than wavefunctions to the fore, the term **chance** is used to mean objective random events rather than a state of uncertainty or partial belief. Before an event occurs, the complete description of the system is given by a probability measure.
+
+Using these ontological terms, the probability measure over the $\sigma$-complex of the quantum system—an object in the *inorganic level of real being*—describes the objective chance that its properties (represented by self-adjoint operators) will take one of a spectrum of possibilities that will become actual in that same inorganic level of reality.
+
+The probability measure describes a contingent mode of being for the quantum system with a spectrum of values that are possible and become actual. What remains missing is an understanding of the timing of the actualization. 
+
+$$\text{Contingent Spectrum} \xrightarrow{\text{? Timing \& Physical Cause ?}} \text{Actualized State}$$
+
+In all the versions of quantum theory considered so far, time behaves the same way as in classical physics. The timing of the actualization of the possible values of the observable and the physical cause (at the inorganic level of reality) of this actualization remains a major open problem. 
+
+The analysis of events in **quantum tunneling** may provide critical insight into this problem.
+

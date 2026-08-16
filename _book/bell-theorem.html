@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>11&nbsp; Bell’s Theorem – Ontological Investigations</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./Comparison-of-quantum-physical-ontologies.html" rel="next">
+<link href="./Locality_and_quantum_mechanics.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-9e3e5b9121e68b3f077afb32f2c64d95.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./A_Relational_Reconstruction_of_Quantum_Mechanics.html">Physical Layer</a></li><li class="breadcrumb-item"><a href="./bell-theorem.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Bell’s Theorem</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Ontological Investigations</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Ontological Foundations</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Why_critical_ontology.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Critical ontology and layers of reality</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Objects-in-a-Field-of-Sense.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Objects in a Field of Sense</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Taking_Process_Philosophy_Seriously.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Process ontology</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./The-ontology-of-dispositions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">The Ontology of Dispositions and Objective Chance</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Potentiality_and_probability.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Potentiality and Probability</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ontology-of-complex-systems.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">An Ontology of Complex Systems</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Physical Layer</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./A_Relational_Reconstruction_of_Quantum_Mechanics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">A Relational Reconstruction of Quantum Mechanics</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Heisenberg_Potentiality_and_Quantum_Ontology.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Heisenberg, Potentiality, and Quantum Ontology</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./The_double_slit_experiment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">The double slit experiment</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Locality_and_quantum_mechanics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Locality, Microcausality, and Entanglement</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bell-theorem.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Bell’s Theorem</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Comparison-of-quantum-physical-ontologies.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Comparison of quantum physical ontologies</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./the-heart-of-matter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Ontological Framework: Nicolai Hartmann and Quantum Mechanics</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Quantum_objects.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Ontology and the Quantum Object</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./The_combination_of_quantum_objects.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">The Combination of Quantum Objects</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Quantum-chance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Quantum chance</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./quantum_modal_ontology.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Modal categories and quantum chance</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Events_Histories_ and_Trees.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">The Quantum Mechanics of Events, Histories and Trees</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Prediction_indeterminacy_and_randomness.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">The Impossibility of Prediction and Quantum Indeterminacy</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Events_in_quantum_mechanics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Events in quantum mechanics: a simple proposal</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Organic Layer</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./selection.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Natural selection</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./genetics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">The genetics game</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Psychic Layer</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Hartmann-Hayek-ontology.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Hartmann and Hayek: A Comparative Ontology</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sensory_order.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Sensory order</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Spiritual Layer</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Ontological_Critiques_of_the_Notion_of_Government.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Ontological Critiques of the Notion of Government</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./libertarian-foundations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Libertarian Foundations</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Eukens-liberal-order.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Eucken’s liberal order</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Hartmann_and_Hayek.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Hartmann and Hayek on layered reality</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./economic_entities.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">Economic Entities</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
+ <span class="menu-text">End Matter</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#sec-CausAssu" id="toc-sec-CausAssu" class="nav-link active" data-scroll-target="#sec-CausAssu"><span class="header-section-number">11.1</span> Locality and causality assumptions</a>
+  <ul class="collapse">
+  <li><a href="#bells-principle-of-local-causality" id="toc-bells-principle-of-local-causality" class="nav-link" data-scroll-target="#bells-principle-of-local-causality"><span class="header-section-number">11.1.1</span> Bell’s Principle of Local Causality</a></li>
+  <li><a href="#parameter-independence-and-outcome-independence" id="toc-parameter-independence-and-outcome-independence" class="nav-link" data-scroll-target="#parameter-independence-and-outcome-independence"><span class="header-section-number">11.1.2</span> Parameter independence and outcome independence</a></li>
+  <li><a href="#sec-SuppAssu" id="toc-sec-SuppAssu" class="nav-link" data-scroll-target="#sec-SuppAssu"><span class="header-section-number">11.1.3</span> Explicit experimental assumptions</a></li>
+  </ul></li>
+  <li><a href="#sec-CHSH-app" id="toc-sec-CHSH-app" class="nav-link" data-scroll-target="#sec-CHSH-app"><span class="header-section-number">11.2</span> Appendix: quantum mechanical calculation of the CHSH inequality</a>
+  <ul class="collapse">
+  <li><a href="#the-initial-entangled-state" id="toc-the-initial-entangled-state" class="nav-link" data-scroll-target="#the-initial-entangled-state"><span class="header-section-number">11.2.1</span> 1. The initial entangled state</a></li>
+  <li><a href="#the-measurement-bases" id="toc-the-measurement-bases" class="nav-link" data-scroll-target="#the-measurement-bases"><span class="header-section-number">11.2.2</span> 2. The measurement bases</a></li>
+  <li><a href="#calculating-joint-probabilities" id="toc-calculating-joint-probabilities" class="nav-link" data-scroll-target="#calculating-joint-probabilities"><span class="header-section-number">11.2.3</span> 3. Calculating joint probabilities</a></li>
+  <li><a href="#the-expectation-value-correlation-function" id="toc-the-expectation-value-correlation-function" class="nav-link" data-scroll-target="#the-expectation-value-correlation-function"><span class="header-section-number">11.2.4</span> 4. The expectation value (correlation function)</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./A_Relational_Reconstruction_of_Quantum_Mechanics.html">Physical Layer</a></li><li class="breadcrumb-item"><a href="./bell-theorem.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Bell’s Theorem</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span id="sec-BellsTheorem" class="quarto-section-identifier"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Bell’s Theorem</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Bell’s theorem has an untidy history. It is even debatable whether it merits being called a theorem. However, it is extremely important, as we show below, and we endeavour to shape it into the form of a theorem.</p>
+<p>We present the proof in two parts, as in <span class="citation" data-cites="MyrvoldGenoveseShimony2020">Myrvold et al. (<a href="references.html#ref-MyrvoldGenoveseShimony2020" role="doc-biblioref">2020</a>)</span>:</p>
+<ul>
+<li>formulate a measurement framework and then derive a version of the inequality;</li>
+<li>demonstrate that quantum mechanics predicts violations of the inequality.</li>
+</ul>
+<p>This will show a conflict between a statistical analysis of possible experiments that assumes a locality concept that we call Bell locality (BL), and textbook quantum mechanics (QM). Further discussion is then devoted to the challenge of deciding experimentally between BL and QM.</p>
+<p>The framework is a generalisation of the one used in <span class="citation" data-cites="Bell1964">Bell (<a href="references.html#ref-Bell1964" role="doc-biblioref">1964</a>)</span>. Bell’s 1964 derivation assumed an experiment involving perfect anticorrelation of the results of aligned Stern-Gerlach experiments on a pair of entangled spin-<span class="math inline">\(\frac{1}{2}\)</span> particles. This is not realistic, and experimental tests need this assumption to be relaxed because of the practical difficulties of maintaining quantum coherence and guaranteeing spacelike separation of the measurements. An experimental setup with polarised photons is more appropriate. Papers that took the steps from Bell’s 1964 demonstration to an experimentally testable form include <span class="citation" data-cites="CHSH1969">John F. Clauser et al. (<a href="references.html#ref-CHSH1969" role="doc-biblioref">1969</a>)</span>, <span class="citation" data-cites="Bell1971">Bell (<a href="references.html#ref-Bell1971" role="doc-biblioref">1971</a>)</span>, <span class="citation" data-cites="ClauserHorne1974">Clauser and Horne (<a href="references.html#ref-ClauserHorne1974" role="doc-biblioref">1974</a>)</span>, <span class="citation" data-cites="Aspect1983">Aspect (<a href="references.html#ref-Aspect1983" role="doc-biblioref">1983</a>)</span> and <span class="citation" data-cites="Mermin1986">Mermin (<a href="references.html#ref-Mermin1986" role="doc-biblioref">1986</a>)</span>.</p>
+<p>The initial part of the proof will use a framework describing the general experimental setup and the assumptions sufficient to ensure satisfaction of the Bell inequalities. The second part will show that quantum mechanics predicts violations of the inequalities. The conceptual framework postulates an ensemble of configurations of two correlated subsystems, with each entangled system labelled 1 and 2. Each entangled system is characterised by a configuration state <span class="math inline">\(z\)</span> that contains the entirety of its properties, including the properties of the individual sub-systems and any correlations between them. The state <span class="math inline">\(z\)</span> is taken to be a complete specification of the properties of the configuration at the moment of generation and future evolution, other than future experimental decisions.</p>
+<p>The state space <span class="math inline">\(Z\)</span> is the totality of all states <span class="math inline">\(z\)</span>, and we assume that the subsets of <span class="math inline">\(Z\)</span> are measurable subsets, forming a measurable space to which probabilistic considerations may be applied. The probability distribution over <span class="math inline">\(Z\)</span> is denoted by <span class="math inline">\(\rho\)</span>. In addition, it is assumed that the mode of generation of the pairs establishes a probability distribution <span class="math inline">\(\pi\)</span> that is independent of the histories of each of the two systems after they separate. Temporal evolution of the properties of the two systems after separation is possible, but it is assumed that the state <span class="math inline">\(z\)</span> sets the probabilities for subsequent events (including any temporal evolution), and therefore the probabilities for outcomes of experiments to be performed on the sub-systems separately.</p>
+<p>Different experiments may be performed on each subsystem. We use <span class="math inline">\(a \in \mathcal{A}\)</span> as variables ranging over possible experiment settings <span class="math inline">\(\mathcal{A}\)</span> on subsystem 1, and <span class="math inline">\(b \in \mathcal{B}\)</span> as variables ranging over experiment settings <span class="math inline">\(\mathcal{B}\)</span> on subsystem 2. It is not assumed that these parameters capture the complete state of the experimental apparatus, which might have a range of microstates corresponding to each experimental setting; consider them as labels. The following assumption concerns experimental procedures and the independence of the preparation of the entangled system from the choice of experiments to be performed.</p>
+<blockquote class="blockquote">
+<p><strong>Measurement Independence Assumption</strong>: the preparation probability distribution <span class="math inline">\(\rho\)</span> is independent of the processes by which the choice of experiments to be performed is made.</p>
+</blockquote>
+<p>The results of an experiment with setting <span class="math inline">\(a\)</span> on subsystem 1 are labelled by a real parameter <span class="math inline">\(s\)</span>, taking values from a discrete set <span class="math inline">\(S_a\)</span> of real numbers in the interval <span class="math inline">\([-1,1]\)</span>. Equivalently, the result of an experiment on subsystem 2 is labelled by a parameter <span class="math inline">\(\tau\)</span>, taking values from a discrete set <span class="math inline">\(T_b\)</span> in <span class="math inline">\([-1,1]\)</span>. The sets of possible outcomes depend on the choice of experimental settings. The restriction of the outcome labels to the interval <span class="math inline">\([-1,1]\)</span> is a choice made only for convenience. It is essentially a measurement calibration, and it is important that the calibration be consistent across all experiments. The restriction to discrete outcome sets is not essential, but it is convenient for the proof of the Bell inequalities.</p>
+<p>We assume that, for each pair of settings <span class="math inline">\(a,b\)</span>, and every <span class="math inline">\(z \in Z\)</span>, there is a probability function <span class="math inline">\(\pi_{a,b}(s,\tau \mid z)\)</span>, which obviously sums to unity over all <span class="math inline">\(s \in S_a\)</span> and <span class="math inline">\(\tau \in T_b\)</span>. We can use these probabilities to define marginal probabilities:</p>
+<p><span id="eq-1a"><span class="math display">\[ \pi^1_{a,b}(s \mid z) \equiv \sum_{\tau \in T_b} \pi_{a,b}(s,\tau \mid z),  \tag{11.1}\]</span></span></p>
+<p><span id="eq-1b"><span class="math display">\[ \pi^2_{a,b}(\tau \mid z) \equiv \sum_{s \in S_a} \pi_{a,b}(s,\tau \mid z),  \tag{11.2}\]</span></span></p>
+<p>Define <span class="math inline">\(A_z(a,b)\)</span> and <span class="math inline">\(B_z(a,b)\)</span> as the expectation values, for complete state <span class="math inline">\(z\)</span>, of the outcomes of experiments on subsystems 1 and 2, respectively, when the settings are <span class="math inline">\(a,b\)</span>.</p>
+<p><span id="eq-2a"><span class="math display">\[A_z(a,b) \equiv \sum_{s \in S_a} s \, \pi^1_{a,b}(s \mid z) \tag{11.3}\]</span></span></p>
+<p><span id="eq-2b"><span class="math display">\[B_z(a,b) \equiv \sum_{\tau \in T_b} \tau \, \pi^2_{a,b}(\tau \mid z) \tag{11.4}\]</span></span></p>
+<p>Now define the expectation value of the product <span class="math inline">\(s \cdot \tau\)</span> of outcomes:</p>
+<p><span id="eq-3"><span class="math display">\[E_z(a,b) \equiv \sum_{s \in S_a,\, \tau \in T_b} (s \cdot \tau)\,\pi_{a,b}(s,\tau\mid z). \tag{11.5}\]</span></span></p>
+<p>Bell-type inequalities follow from considerations of locality and causality that have been called <em>factorisability</em> or <em>Bell locality</em> (BL). This is formulated as the following factorisation condition on the response probability distribution of outcomes, conditional on the complete state <span class="math inline">\(z\)</span> of the configuration.</p>
+<p>(BL) For any <span class="math inline">\(a,b,z\)</span>, there exist probability functions <span class="math inline">\(\pi^1_a(s \mid z)\)</span> and <span class="math inline">\(\pi^2_b(\tau \mid z)\)</span> such that</p>
+<p><span class="math display">\[
+\pi_{a,b}(s,\tau \mid z) = \pi^1_a(s \mid z)\,\pi^2_b(\tau \mid z).
+\]</span></p>
+<p>Note that, even though the probability factors into independent subsystem-1 and subsystem-2 probabilities conditional on the total system state <span class="math inline">\(z\)</span>, the outcome in subsystem 1 does not depend on the setting of the experiment in subsystem 2, and vice versa. The condition (BL) is a consequence of the conjunction of two conditions, which have been called <em>parameter independence</em> and <em>outcome independence</em> (see <a href="#sec-CausAssu" class="quarto-xref"><span>Section 11.1</span></a>, below).</p>
+<p>If the factorisability condition (BL) is satisfied, then <span class="math inline">\(A_z(a,b)=A_z(a)\)</span> and <span class="math inline">\(B_z(a,b)=B_z(b)\)</span>, so</p>
+<p><span id="eq-4"><span class="math display">\[E_z(a,b) = A_z(a) B_z(b). \tag{11.6}\]</span></span></p>
+<p>The above definitions are valid for experiments with any number of discrete outcomes. The simplest case is that in which each experiment has only two distinct outcomes, which we may label by <span class="math inline">\(\pm 1\)</span>.</p>
+<p>To derive the inequalities, at least two separate experimental settings per subsystem must be considered, <span class="math inline">\(a,a',b,b'\)</span>. Now consider the quantities</p>
+<p><span id="eq-5"><span class="math display">\[S_z(a,a',b,b') = \lvert E_z(a,b) + E_z(a,b') \rvert + \lvert E_z(a',b) - E_z(a',b') \rvert. \tag{11.7}\]</span></span></p>
+<p>We now introduce a quantity related to <span class="math inline">\(S_z(a,a',b,b')\)</span>, namely <span class="math inline">\(S_\rho\)</span>, where the expectation values in <a href="#eq-5" class="quarto-xref">Equation&nbsp;<span>11.7</span></a> are averaged over <span class="math inline">\(\rho\)</span>, the distribution over states <span class="math inline">\(z \in Z\)</span>.</p>
+<p><span id="eq-6"><span class="math display">\[ S_\rho(a,a',b,b') = \lvert\langle E_z(a,b) \rangle_\rho + \langle E_z(a,b') \rangle_\rho\rvert + \lvert\langle E_z(a',b) \rangle_\rho - \langle E_z(a',b') \rangle_\rho\rvert.  \tag{11.8}\]</span></span></p>
+<p>Note that, in taking the expectation values of the quantities appearing on the right-hand side of this definition with respect to the same distribution <span class="math inline">\(\rho\)</span>, we are invoking the Measurement Independence Assumption. Under this assumption and the BL condition, we shall prove the following:</p>
+<p><strong>Bell’s theorem — part 1</strong>: For <span class="math inline">\(S_\rho(a,a',b,b')\)</span> given by <a href="#eq-6" class="quarto-xref">Equation&nbsp;<span>11.8</span></a>, the following inequality holds:</p>
+<p><span class="math display">\[\tag{BT1} S_\rho(a,a',b,b') \leq 2.\]</span></p>
+<p>This is due to <span class="citation" data-cites="ClauserHorneShimonyHolt1969">J. F. Clauser et al. (<a href="references.html#ref-ClauserHorneShimonyHolt1969" role="doc-biblioref">1969</a>)</span> and is known as the <em>CHSH (Clauser–Horne–Shimony–Holt) inequality</em>.</p>
+<p><strong>Proof</strong></p>
+<p>From <a href="#eq-5" class="quarto-xref">Equation&nbsp;<span>11.7</span></a>, we have</p>
+<p><span class="math display">\[ \langle S_z(a,a',b,b') \rangle_\rho = \langle \lvert E_z(a,b) + E_z(a,b') \rvert \rangle_\rho + \langle \lvert E_z(a',b) - E_z(a',b') \rvert \rangle_\rho. \]</span></p>
+<p>Since the absolute value of the average of any random variable cannot be greater than the average of its absolute value, it is clear that</p>
+<p><span id="eq-7"><span class="math display">\[S_\rho(a,a',b,b') \leq \langle S_z(a,a',b,b') \rangle_\rho. \tag{11.9}\]</span></span></p>
+<p>If BL is satisfied, then, using <a href="#eq-3" class="quarto-xref">Equation&nbsp;<span>11.5</span></a> and the fact that <span class="math inline">\(A_z(a)\)</span> and <span class="math inline">\(A_z(a')\)</span> lie in the interval <span class="math inline">\([-1,1]\)</span>,</p>
+<p><span id="eq-9"><span class="math display">\[ S_z(a,a',b,b')  \tag{11.10}\]</span></span></p>
+<p><span class="math display">\[= \lvert A_z(a)(B_z(b) + B_z(b'))\rvert + \lvert A_z(a')(B_z(b) - B_z(b'))\rvert\]</span></p>
+<p><span class="math display">\[\leq \lvert B_z(b) + B_z(b') \rvert + \lvert B_z(b) - B_z(b')\rvert. \]</span></p>
+<p>It is easy to check that</p>
+<p><span class="math display">\[\lvert B_z(b) + B_z(b') \rvert + \lvert B_z(b) - B_z(b') \rvert = 2\max(\lvert B_z(b) \rvert,\,\lvert B_z(b')\rvert).\]</span></p>
+<p>Since <span class="math inline">\(B_z(b)\)</span> and <span class="math inline">\(B_z(b')\)</span> also lie in the interval <span class="math inline">\([-1,1]\)</span>, from the previous step we conclude that, for every <span class="math inline">\(z\)</span>,</p>
+<p><span id="eq-11"><span class="math display">\[S_z(a,a',b,b') \leq 2. \tag{11.11}\]</span></span></p>
+<p>Since this bound holds for every value of <span class="math inline">\(z\)</span>, it must also hold for the expectation value of <span class="math inline">\(S_z\)</span>.</p>
+<p><span id="eq-12"><span class="math display">\[\langle S_z(a,a',b,b')\rangle_\rho \leq 2. \tag{11.12}\]</span></span></p>
+<p>This, together with <a href="#eq-7" class="quarto-xref">Equation&nbsp;<span>11.9</span></a>, yields the CHSH inequality and completes the proof of BT1. <span class="math inline">\(\square\)</span></p>
+<p>The final step of the proof of our Bell theorem is to show that a system described by a quantum mechanical state violates BT1, the CHSH inequality.</p>
+<p><strong>Bell’s theorem — part 2</strong>: There is a quantum mechanical state and a set of experiments for which the CHSH inequality is violated.</p>
+<p><span class="math display">\[\tag{BT2} \langle S_z(a,a',b,b')\rangle_\rho \nleq 2.\]</span></p>
+<p>The set of experiments used to test the CHSH inequality will be referred to as CHSH experiments. Here, we consider one example involving polarisation-entangled photons, <a href="#fig-1" class="quarto-xref">Figure&nbsp;<span>11.1</span></a>.</p>
+<p>Consider a pair of photons 1 and 2 propagating in the <span class="math inline">\(\zeta\)</span>-direction. Let <span class="math inline">\(\ket{\chi}\)</span> and <span class="math inline">\(\ket{\upsilon}\)</span> represent states in which photon <span class="math inline">\(j\)</span> (<span class="math inline">\(j=1,2\)</span>) is linearly polarised in the <span class="math inline">\(\chi\)</span>- and <span class="math inline">\(\upsilon\)</span>-directions, respectively. Neglecting the part of the state that describes movement in the <span class="math inline">\(\zeta\)</span>-direction, consider the following part of the state vector that describes the polarisation of the photons:</p>
+<p><span id="eq-15"><span class="math display">\[\ket{\Phi} = \frac{1}{\sqrt{2}}\left(\ket{\chi}_1 \ket{\chi}_2 + \ket{\upsilon}_1 \ket{\upsilon}_2 \right), \tag{11.13}\]</span></span></p>
+<p>which is invariant under rotation of the <span class="math inline">\(\chi\)</span> and <span class="math inline">\(\upsilon\)</span> axes in the plane perpendicular to <span class="math inline">\(\zeta\)</span>. The total quantum state of the pair of photons 1 and 2 is invariant under exchange of the two photons, as required by the fact that photons are integral-spin particles. Suppose now that photons 1 and 2 impinge respectively on the faces of birefringent crystal polarisation analyzers I and II, with the entrance face of each analyzer perpendicular to <span class="math inline">\(\zeta\)</span>. Each analyzer has the property of separating light incident upon its face into two outgoing non-parallel rays, the <em>ordinary ray</em> and the <em>extraordinary ray</em>. The transmission axis of the analyzer is a direction with the property that a photon polarised along it will emerge in the ordinary ray (with certainty if the crystals are assumed to be ideal), while a photon polarised in a direction perpendicular to <span class="math inline">\(\zeta\)</span> and to the transmission axis will emerge in the extraordinary ray. See <a href="#fig-1" class="quarto-xref">Figure&nbsp;<span>11.1</span></a> for a schematic of the experimental setup.</p>
+<div id="fig-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="image1.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;11.1: Experimental Set-up
+</figcaption>
+</figure>
+</div>
+<p>Photon pairs are emitted from the source, each pair quantum mechanically described by <span class="math inline">\(\ket{\Phi}\)</span> of <a href="#eq-15" class="quarto-xref">Equation&nbsp;<span>11.13</span></a>. I and II are polarisation analyzers, with outcomes <span class="math inline">\(s=1\)</span> and <span class="math inline">\(\tau=1\)</span> designating emergence in the ordinary ray, while <span class="math inline">\(s=-1\)</span> and <span class="math inline">\(\tau=-1\)</span> designate emergence in the extraordinary ray. The crystals are also idealised by assuming that no incident photon is absorbed.</p>
+<p>The expectation value, in state <span class="math inline">\(\ket{\Phi}\)</span>, of the product of <span class="math inline">\(s\)</span> and <span class="math inline">\(\tau\)</span>, is</p>
+<p><span id="eq-16"><span class="math display">\[E_{\Phi}(\mathbf{a}, \mathbf{b}) =\cos^2 (\theta_{\mathbf{a} \mathbf{b}}) - \sin^2 (\theta_{\mathbf{a} \mathbf{b}}) \tag{11.14}\]</span></span></p>
+<p><span class="math display">\[= \cos(2\theta_{\mathbf{a} \mathbf{b}}).\]</span></p>
+<p>The details are calculated in <a href="#sec-CHSH-app" class="quarto-xref"><span>Section 11.2</span></a>, below.</p>
+<p>Here <span class="math inline">\(\theta_{\mathbf{a} \mathbf{b}} = \alpha-\beta\)</span> is the angle between the transmission axes of the two analyzers. The expectation value <span class="math inline">\(E_{\Phi}(\mathbf{a}, \mathbf{b})\)</span> is a correlation function, and it is a function of the angle between the transmission axes of the two analyzers. The correlation function is maximal when the transmission axes are aligned, and minimal when they are perpendicular.</p>
+<p>An important insight of Bell’s was that it is important to consider the less-than-perfect correlations obtained when the device axes are not aligned. Bell’s theorem shows that no model satisfying the condition BL can reproduce the quantum correlations for all angles. This can be seen by considering the quantum predictions (<a href="#eq-15" class="quarto-xref">Equation&nbsp;<span>11.13</span></a>, <a href="#eq-16" class="quarto-xref">Equation&nbsp;<span>11.14</span></a>) and plugging them into the expression for <span class="math inline">\(S\)</span>. For the case of polarisation-entangled photons, we have</p>
+<p><span id="eq-20"><span class="math display">\[S_{\Phi}(\phi) = \lvert 2 \cos(2\phi)\rvert + \lvert \cos(2\phi) - \cos(6\phi) \rvert. \tag{11.15}\]</span></span></p>
+<p>This takes on its maximum at <span class="math inline">\(\phi = {\pi}/{8}\)</span>.</p>
+<p><span id="eq-21"><span class="math display">\[S_{\Phi}({\pi}/{8}) = 2\sqrt{2} \approx 2.828. \tag{11.16}\]</span></span></p>
+<section id="sec-CausAssu" class="level2" data-number="11.1">
+<h2 data-number="11.1" class="anchored" data-anchor-id="sec-CausAssu"><span class="header-section-number">11.1</span> Locality and causality assumptions</h2>
+<p>The key condition giving rise to the Bell inequality (BT1) is the factorisability condition (BL). This condition is motivated by considerations of locality and causality. It is also a purely mathematical relationship between probabilities. For the proof, it is only necessary to find one system described by a quantum state and a set of experiments for which the CHSH inequality is violated. However, for experimental tests it is important to understand the physical assumptions that motivate the condition (BL) and ensure that these are met. In this section we discuss these assumptions.</p>
+<section id="bells-principle-of-local-causality" class="level3" data-number="11.1.1">
+<h3 data-number="11.1.1" class="anchored" data-anchor-id="bells-principle-of-local-causality"><span class="header-section-number">11.1.1</span> Bell’s Principle of Local Causality</h3>
+<p>Bell’s Principle of Local Causality has evolved since the publication of <span class="citation" data-cites="Bell1964">Bell (<a href="references.html#ref-Bell1964" role="doc-biblioref">1964</a>)</span>. We will not be concerned with the details of this evolution, but rather with the core idea that the result of a measurement on one system be independent of the setting of a distant measurement, provided the two measurements were not coordinated in their joint past.</p>
+<p>In his final contribution (<span class="citation" data-cites="Bell_Aspect_2004">Bell and Aspect (<a href="references.html#ref-Bell_Aspect_2004" role="doc-biblioref">2004</a>)</span>), Bell derives the factorisability condition (BL) from the <em>Principle of Local Causality</em>. He bases his analysis on the following:</p>
+<ul>
+<li>relativity prohibits superluminal causation;</li>
+<li>the cause-effect relation is asymmetric in time, with causes temporally preceding their effects;</li>
+<li>in a relativistic spacetime, events at spacelike separation are taken to have no temporal order.</li>
+</ul>
+<p>Bell’s final statement of the Principle of Local Causality is as follows (see <a href="#fig-2" class="quarto-xref">Figure&nbsp;<span>11.2</span></a>):</p>
+<blockquote class="blockquote">
+<p><strong>Principle of Local Causality</strong> (PLC): A theory will be said to be locally causal if the probabilities attached to values of local beables in a spacetime region 1 are unaltered by specification of values of local beables in a spacelike separated region 2, when what happens in the backward light cone of 1 is already sufficiently specified, for example by a full specification of local beables in a spacetime region 3.</p>
+</blockquote>
+<div id="fig-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="image2.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;11.2: Principle of Local Causality
+</figcaption>
+</figure>
+</div>
+<p>Bell’s term <em>beable</em> means any element of a physical theory that is taken to correspond to something physically real; therefore a beable is an entity in the Real Sphere as described in (<a href="Why_critical_ontology.html" class="quarto-xref"><span>Chapter 1</span></a>), and <em>local beables</em> pertaining to a spacetime region are those contained within that region. The term was, of course, introduced to generalise beyond the term <em>observable</em> in textbook QM.</p>
+<p>Note that the preparation state <span class="math inline">\(z\)</span> is a complete specification of the properties of the entangled system at the moment of generation, and hence is in the backward light cone of both region 1 and region 2.</p>
+<p>The formulation of the local causality condition is motivated by <span class="citation" data-cites="Bell1976">Bell (<a href="references.html#ref-Bell1976" role="doc-biblioref">1976</a>)</span> with the remark,</p>
+<blockquote class="blockquote">
+<p>Now my intuitive notion of local causality is that events in <strong>spacetime region 2</strong> should not be “causes” of events in <strong>spacelike separated region 1</strong>, and vice versa. But this does not mean that the two sets of events should be uncorrelated, for they could have common causes in the overlap of their backward light cones.</p>
+</blockquote>
+<p>The system state <span class="math inline">\(z\)</span> is a common cause of correlations between the two subsystems. Correlations between two variables that are not in a cause-effect relation to each other can be explained by some common cause.</p>
+<p>Bell then proceeds to formulate the condition of local causality, which is that a full specification of beables in the overlap of the backward light cones of the spacetime regions 1 and 2 should screen off correlations between them. Implicit in this is that correlations between two variables be susceptible to causal explanation, either via a causal connection between the variables, or via a common cause.</p>
+<p>The Principle of Local Causality follows from the conjunction of three assumptions, all of which were explicitly formulated by Bell:</p>
+<ul>
+<li>(Temporal Asymmetry of Causality) Any cause of an event lies in its temporal past, and not in its temporal future.</li>
+<li>(Lorentz Invariance) The relation of temporal precedence is invariant under Lorentz boosts.</li>
+<li>Common cause.</li>
+</ul>
+</section>
+<section id="parameter-independence-and-outcome-independence" class="level3" data-number="11.1.2">
+<h3 data-number="11.1.2" class="anchored" data-anchor-id="parameter-independence-and-outcome-independence"><span class="header-section-number">11.1.2</span> Parameter independence and outcome independence</h3>
+<p>The condition BL of factorisability is the application, to the particular setup of CHSH experiments, of Bell’s Principle of Local Causality. As we have seen, it can be thought of as the conjunction of the condition of causal locality and the common-cause principle. In this subsection we apply those conditions to the setup of CHSH experiments.</p>
+<p>On the assumption that the experimental settings can be treated as free variables, whose choice of setting on one wing is made at spacelike separation from the experiment on the other, a dependence of the probability of the outcome of one experiment on the setting of the other would seem straightforwardly to be an instance of a nonlocal causal influence. The condition that this not occur can be formulated as follows.</p>
+<p>(PI) For all parameter settings <span class="math inline">\(a\)</span>, <span class="math inline">\(a'\)</span>, <span class="math inline">\(b\)</span>, <span class="math inline">\(b'\)</span>, all <span class="math inline">\(z\)</span>, and all <span class="math inline">\(s \in S_a\)</span> and <span class="math inline">\(\tau \in T_b\)</span>,</p>
+<p><span id="eq-22a"><span class="math display">\[\pi^1_{a,b}(s \mid z) = \pi^1_{a,b'}(s \mid z); \tag{11.17}\]</span></span></p>
+<p><span id="eq-22b"><span class="math display">\[\pi^2_{a,b}(\tau \mid z) = \pi^2_{a',b}(\tau \mid z). \tag{11.18}\]</span></span></p>
+<p>This is the condition that has come to be known as <em>parameter independence</em>, following <span class="citation" data-cites="Shimony1986">Shimony (<a href="references.html#ref-Shimony1986" role="doc-biblioref">1986</a>)</span>, <span class="citation" data-cites="Shimony1990">Shimony (<a href="references.html#ref-Shimony1990" role="doc-biblioref">1990</a>)</span>).</p>
+<p>For fixed values of the experimental settings, Bell’s Principle of Local Causality entails that the outcomes of the experiments on the two systems be independent, conditional on the specification <span class="math inline">\(z\)</span> of the complete state of the system at the source. This is the <em>outcome independence</em> condition.</p>
+<p>(OI) For each pair of parameter settings <span class="math inline">\(a,b\)</span>, and all <span class="math inline">\(z\)</span>, and all <span class="math inline">\(s \in S_a\)</span> and <span class="math inline">\(\tau \in T_b\)</span>,</p>
+<p><span id="eq-23"><span class="math display">\[\pi_{a,b}(s,\tau \mid z) = \pi^1_{a,b}(s \mid z)\; \pi^2_{a,b}(\tau \mid z). \tag{11.19}\]</span></span></p>
+<p>A violation of PI would seem to permit superluminal signalling, but this requires an additional assumption: that the state of the system be controllable. It would not hold for a theory on which there are principled limitations on the ability of would-be signallers to control the states of the systems they are dealing with; an example of a theory of this sort is Bohmian mechanics, which violates PI but does not permit superluminal signalling. In some of the literature, PI has incorrectly been treated as equivalent to no-signalling.</p>
+</section>
+<section id="sec-SuppAssu" class="level3" data-number="11.1.3">
+<h3 data-number="11.1.3" class="anchored" data-anchor-id="sec-SuppAssu"><span class="header-section-number">11.1.3</span> Explicit experimental assumptions</h3>
+<section id="unique-experimental-outcomes" class="level4" data-number="11.1.3.1">
+<h4 data-number="11.1.3.1" class="anchored" data-anchor-id="unique-experimental-outcomes"><span class="header-section-number">11.1.3.1</span> Unique experimental outcomes</h4>
+<p>Of the potential outcomes of a given experiment, one and only one occurs, and hence it makes sense to speak of <em>the</em> outcome of an experiment. However, Everettian, or “many-worlds”, interpretations state that all potential outcomes actually occur. Even in these interpretations, though, each individual world has a unique outcome.</p>
+</section>
+<section id="experimental-settings-as-free-parameters" class="level4" data-number="11.1.3.2">
+<h4 data-number="11.1.3.2" class="anchored" data-anchor-id="experimental-settings-as-free-parameters"><span class="header-section-number">11.1.3.2</span> Experimental settings as free parameters</h4>
+<p>It is assumed that the complete state <span class="math inline">\(z\)</span> is always sampled from the same probability distribution <span class="math inline">\(\rho\)</span>, no matter what choice of experiment is made, and that, for this reason, the subset of experiments corresponding to any given choice of settings is a fair sample of the distribution of <span class="math inline">\(z\)</span>. This will be discussed in more detail in <span class="quarto-unresolved-ref">?sec-bell-metaphysics</span>.</p>
+</section>
+<section id="timing-of-experimental-outcomes" class="level4" data-number="11.1.3.3">
+<h4 data-number="11.1.3.3" class="anchored" data-anchor-id="timing-of-experimental-outcomes"><span class="header-section-number">11.1.3.3</span> Timing of experimental outcomes</h4>
+<p>In experiments, care should be taken that, for the two subsystems, the choice of experimental setting and the registration of results take place at spacelike separation. It is assumed that experiments have unique results. The question arises as to <em>when</em> the unique result emerges. It is typically assumed that the result is definite once a detector has been triggered or the result has been recorded in a computer memory. This difficulty will remain unresolved until the quantum mechanical measurement problem is solved.</p>
+</section>
+</section>
+</section>
+<section id="sec-CHSH-app" class="level2" data-number="11.2">
+<h2 data-number="11.2" class="anchored" data-anchor-id="sec-CHSH-app"><span class="header-section-number">11.2</span> Appendix: quantum mechanical calculation of the CHSH inequality</h2>
+<p>We will calculate the joint measurement probabilities of two entangled photons, find their correlation function, and show how it perfectly violates the limits of classical physics.</p>
+<section id="the-initial-entangled-state" class="level3" data-number="11.2.1">
+<h3 data-number="11.2.1" class="anchored" data-anchor-id="the-initial-entangled-state"><span class="header-section-number">11.2.1</span> 1. The initial entangled state</h3>
+<p>In an optical setup using spontaneous parametric down-conversion (SPDC), a pair of photons are generated and sent to measurement equipment <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> in a maximally entangled polarisation state described by the symmetric Bell state, <a href="#eq-15" class="quarto-xref">Equation&nbsp;<span>11.13</span></a>:</p>
+<p><span class="math display">\[\ket{\Phi} = \frac{1}{\sqrt{2}} \left( \ket{\chi}_1 \ket{\chi}_2 + \ket{\upsilon}_1 \ket{\upsilon}_2 \right)\]</span></p>
+<p>Here, <span class="math inline">\(\ket{\chi}\)</span> and <span class="math inline">\(\ket{\upsilon}\)</span> represent horizontal and vertical linear polarisations. This state means that if settings <span class="math inline">\(a\)</span> at <span class="math inline">\(A\)</span> and <span class="math inline">\(b\)</span> at <span class="math inline">\(B\)</span> both measure in the <span class="math inline">\(\chi\)</span> or <span class="math inline">\(\upsilon\)</span> direction, they will always get identical results (either both <span class="math inline">\(\chi\)</span> or both <span class="math inline">\(\upsilon\)</span>).</p>
+</section>
+<section id="the-measurement-bases" class="level3" data-number="11.2.2">
+<h3 data-number="11.2.2" class="anchored" data-anchor-id="the-measurement-bases"><span class="header-section-number">11.2.2</span> 2. The measurement bases</h3>
+<p>Settings <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span> can be independently rotated.</p>
+<ul>
+<li>the <strong><span class="math inline">\(a\)</span></strong> setting of polariser I is the angle <span class="math inline">\(\alpha\)</span>;</li>
+<li>the <strong><span class="math inline">\(b\)</span></strong> setting of polariser II is the angle <span class="math inline">\(\beta\)</span>.</li>
+</ul>
+<p>A polariser at angle <span class="math inline">\(\theta\)</span> measures whether a photon is polarised along that angle (<span class="math inline">\(+1\)</span> result) or perpendicular to it (<span class="math inline">\(-1\)</span> result). We can write these measurement states as:</p>
+<p><span class="math display">\[\ket{+\theta} = \cos\theta \ket{\chi} + \sin\theta \ket{\upsilon}\]</span></p>
+<p><span class="math display">\[\ket{-\theta} = -\sin\theta \ket{\chi} + \cos\theta \ket{\upsilon}\]</span></p>
+</section>
+<section id="calculating-joint-probabilities" class="level3" data-number="11.2.3">
+<h3 data-number="11.2.3" class="anchored" data-anchor-id="calculating-joint-probabilities"><span class="header-section-number">11.2.3</span> 3. Calculating joint probabilities</h3>
+<p>We require the probability that the settings <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span> both detect a photon passing through their polarisers (<span class="math inline">\(+1,+1\)</span>). According to Born’s rule, this is the squared magnitude of the inner product of the measurement state and the initial state:</p>
+<p><span class="math display">\[\pi_{++}(\alpha, \beta) = |\langle +\alpha, +\beta \mid \Phi \rangle|^2\]</span></p>
+<p>First, let us find the inner product:</p>
+<p><span class="math display">\[\langle+\alpha, +\beta \vert{} \Phi\rangle = \frac{1}{\sqrt{2}} \left( \langle \chi\vert{} \cos\alpha + \langle \upsilon\vert{} \sin\alpha \right)_1 \otimes \left( \langle \chi\vert{} \cos\beta + \langle \upsilon\vert{} \sin\beta \right)_2 \left( \vert{}\chi_1,\chi_2\rangle + \vert{}\upsilon_1,\upsilon_2\rangle \right)\]</span></p>
+<p>Because <span class="math inline">\(\langle \chi\vert{}\chi\rangle = 1\)</span> and <span class="math inline">\(\langle \chi\vert{}\upsilon\rangle = 0\)</span>, this simplifies to:</p>
+<p><span class="math display">\[\langle+\alpha, +\beta \vert{} \Phi\rangle = \frac{1}{\sqrt{2}} (\cos\alpha \cos\beta + \sin\alpha \sin\beta)\]</span></p>
+<p>Using the trigonometric identity <span class="math inline">\(\cos(\alpha - \beta) = \cos\alpha \cos\beta + \sin\alpha \sin\beta\)</span>,</p>
+<p><span class="math display">\[\langle+\alpha, +\beta \vert{} \Phi\rangle = \frac{1}{\sqrt{2}} \cos(\alpha - \beta)\]</span></p>
+<p>Squaring this gives the joint probability of both getting <span class="math inline">\(+1\)</span>:</p>
+<p><span class="math display">\[\pi_{++}(\alpha, \beta) = \frac{1}{2} \cos^2(\alpha - \beta)\]</span></p>
+<p>By doing the same for the other combinations (for example, using <span class="math inline">\(\vert{}-\alpha\rangle\)</span> or <span class="math inline">\(\vert{}-\beta\rangle\)</span>), we obtain the full set of joint probabilities:</p>
+<ul>
+<li><em><span class="math inline">\(\pi_{++}\)</span></em> (both pass): <span class="math inline">\(\frac{1}{2} \cos^2(\alpha - \beta)\)</span></li>
+<li><em><span class="math inline">\(\pi_{--}\)</span></em> (both blocked): <span class="math inline">\(\frac{1}{2} \cos^2(\alpha - \beta)\)</span></li>
+<li><em><span class="math inline">\(\pi_{+-}\)</span></em> (<span class="math inline">\(a\)</span> passes, <span class="math inline">\(b\)</span> blocked): <span class="math inline">\(\frac{1}{2} \sin^2(\alpha - \beta)\)</span></li>
+<li><em><span class="math inline">\(\pi_{-+}\)</span></em> (<span class="math inline">\(a\)</span> blocked, <span class="math inline">\(b\)</span> passes): <span class="math inline">\(\frac{1}{2} \sin^2(\alpha - \beta)\)</span></li>
+</ul>
+</section>
+<section id="the-expectation-value-correlation-function" class="level3" data-number="11.2.4">
+<h3 data-number="11.2.4" class="anchored" data-anchor-id="the-expectation-value-correlation-function"><span class="header-section-number">11.2.4</span> 4. The expectation value (correlation function)</h3>
+<p>The correlation function <span class="math inline">\(E(\alpha, \beta)\)</span> is the average product of their measurement outcomes. We weight the matching results (<span class="math inline">\(+1 \times +1 = 1\)</span> and <span class="math inline">\(-1 \times -1 = 1\)</span>) positively, and the opposing results (<span class="math inline">\(+1 \times -1 = -1\)</span>) negatively:</p>
+<p><span class="math display">\[E(\alpha, \beta) = \pi_{++} + \pi_{--} - \pi_{+-} - \pi_{-+}\]</span></p>
+<p>Substituting the probabilities just calculated:</p>
+<p><span class="math display">\[E(\alpha, \beta) = \left( \frac{1}{2} \cos^2(\alpha - \beta) + \frac{1}{2} \cos^2(\alpha - \beta) \right) - \left( \frac{1}{2} \sin^2(\alpha - \beta) + \frac{1}{2} \sin^2(\alpha - \beta) \right)\]</span></p>
+<p><span class="math display">\[E(\alpha, \beta) = \cos^2(\alpha - \beta) - \sin^2(\alpha - \beta)\]</span></p>
+<p>Using the identity <span class="math inline">\(\cos(2\theta) = \cos^2\theta - \sin^2\theta\)</span>, we arrive at the quantum correlation function:</p>
+<p><span class="math display">\[E(\alpha, \beta) = \cos(2(\alpha - \beta))\]</span></p>
+<p>This is exactly the result we stated in <a href="#eq-16" class="quarto-xref">Equation&nbsp;<span>11.14</span></a>, with <span class="math inline">\(\alpha-\beta = \theta_{ab}\)</span>, confirming that the quantum mechanical predictions for the correlation function violate the CHSH inequality for certain choices of angles <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\beta\)</span>.</p>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-Aspect1983" class="csl-entry" role="listitem">
+Aspect, Alain. 1983. <span>“Trois Tests Expérimentaux Des Inégalités de Bell Par Mesure de Corrélation de Polarisation de Photons.”</span> PhD thesis, Université Paris-Sud, Faculté des Sciences d’Orsay.
+</div>
+<div id="ref-Bell1976" class="csl-entry" role="listitem">
+Bell, J. S. 1976. <span>“The Theory of Local Beables.”</span> <em>Epistemological Letters</em> 9: 11–24.
+</div>
+<div id="ref-Bell_Aspect_2004" class="csl-entry" role="listitem">
+Bell, J. S., and Alain Aspect. 2004. <span>“La Nouvelle Cuisine.”</span> In <em>Speakable and Unspeakable in Quantum Mechanics: Collected Papers on Quantum Philosophy</em>. Cambridge University Press.
+</div>
+<div id="ref-Bell1964" class="csl-entry" role="listitem">
+Bell, John S. 1964. <span>“On the Einstein Podolsky Rosen Paradox.”</span> <em>Physics Physique Fizika</em> 1 (3): 195–200.
+</div>
+<div id="ref-Bell1971" class="csl-entry" role="listitem">
+Bell, John S. 1971. <span>“Introduction to the Hidden-Variable Question.”</span> In <em>Foundations of Quantum Mechanics</em>, <span class="nocase">edited by Bernard d’Espagnat</span>. Proceedings of the International School of Physics "Enrico Fermi", Course IL. Academic Press.
+</div>
+<div id="ref-ClauserHorneShimonyHolt1969" class="csl-entry" role="listitem">
+Clauser, J. F., M. A. Horne, A. Shimony, and R. A. Holt. 1969. <span>“Proposed Experiment to Test Local Hidden-Variable Theories.”</span> <em>Physical Review Letters</em> 23: 880–84.
+</div>
+<div id="ref-ClauserHorne1974" class="csl-entry" role="listitem">
+Clauser, John F., and Michael A. Horne. 1974. <span>“Experimental Consequences of Objective Local Theories.”</span> <em>Physical Review D</em> 10: 526–35.
+</div>
+<div id="ref-CHSH1969" class="csl-entry" role="listitem">
+Clauser, John F., Michael A. Horne, Abner Shimony, and Richard A. Holt. 1969. <span>“Proposed Experiment to Test Local Hidden-Variable Theories.”</span> <em>Physical Review Letters</em> 23: 880–84.
+</div>
+<div id="ref-Mermin1986" class="csl-entry" role="listitem">
+Mermin, N. David. 1986. <span>“Generalizations of Bell’s Theorem to Higher Spins and Higher Correlations.”</span> In <em>Fundamental Questions in Quantum Mechanics</em>, edited by L. M. Roth and A. Inomata. Gordon; Breach.
+</div>
+<div id="ref-MyrvoldGenoveseShimony2020" class="csl-entry" role="listitem">
+Myrvold, Wayne, Marco Genovese, and Abner Shimony. 2020. <span>“Bell’s Theorem.”</span> In <em>The Stanford Encyclopedia of Philosophy</em>, edited by Edward N. Zalta. Metaphysics Research Lab, Stanford University.
+</div>
+<div id="ref-Shimony1986" class="csl-entry" role="listitem">
+Shimony, A. 1986. <span>“Events and Processes in the Quantum World.”</span> In <em>Quantum Concepts in Space and Time</em>, edited by R. Penrose and C. J. Isham. Oxford University Press.
+</div>
+<div id="ref-Shimony1990" class="csl-entry" role="listitem">
+Shimony, A. 1990. <span>“An Exposition of Bell’s Theorem.”</span> In <em>Sixty-Two Years of Uncertainty</em>, edited by A. Miller. Plenum.
+</div>
+</div>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./Locality_and_quantum_mechanics.html" class="pagination-link" aria-label="Locality, Microcausality, and Entanglement">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Locality, Microcausality, and Entanglement</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./Comparison-of-quantum-physical-ontologies.html" class="pagination-link" aria-label="Comparison of quantum physical ontologies">
+        <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Comparison of quantum physical ontologies</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

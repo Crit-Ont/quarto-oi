@@ -1,0 +1,97 @@
+project:
+  type: book
+  
+ 
+
+book:
+  title: "Ontological Investigations"
+  author: "Robert Johnston"  
+  
+  chapters:
+    
+#    - cover.qmd
+    - index.qmd
+    - about.qmd
+
+    
+    - part: "Ontological Foundations"
+      chapters: 
+        -  Why_critical_ontology.qmd
+        - Objects-in-a-Field-of-Sense.qmd
+        - Taking_Process_Philosophy_Seriously.qmd
+        - The-ontology-of-dispositions.qmd 
+        - Potentiality_and_probability.qmd
+        - ontology-of-complex-systems.qmd
+      
+      
+    - part: "Physical Layer"
+      chapters:    
+              - A_Relational_Reconstruction_of_Quantum_Mechanics.qmd
+              - Heisenberg_Potentiality_and_Quantum_Ontology.qmd
+              - The_double_slit_experiment.qmd
+              - Locality_and_quantum_mechanics.qmd
+#              - Bell-and-locality.qmd
+              - bell-theorem.qmd
+              - Comparison-of-quantum-physical-ontologies.qmd
+              - the-heart-of-matter.qmd
+              - Quantum_objects.qmd
+              - The_combination_of_quantum_objects.qmd
+              - Quantum-chance.qmd
+              - quantum_modal_ontology.qmd
+              - Events_Histories_ and_Trees.qmd
+              - Prediction_indeterminacy_and_randomness.qmd
+              - Events_in_quantum_mechanics.qmd
+      
+    - part: "Organic Layer"
+      chapters:   
+              - selection.qmd
+              - genetics.qmd
+        
+    - part: "Psychic Layer"
+      chapters:   
+              - Hartmann-Hayek-ontology.qmd
+              - sensory_order.qmd
+              
+      
+    - part: "Spiritual Layer"
+      chapters: 
+              - Ontological_Critiques_of_the_Notion_of_Government.qmd
+              - libertarian-foundations.qmd
+              - Eukens-liberal-order.qmd
+              - Hartmann_and_Hayek.qmd
+              - economic_entities.qmd
+              
+      
+    - part: "End Matter"
+      chapters: 
+              - references.qmd
+
+format:
+  pdf:
+    papersize: a5
+    header-includes:
+     - \usepackage{braket}
+    title-block-style: none
+    margin: 15mm
+    toc: true
+    number-sections: true
+    documentclass: scrbook
+    include-in-header:
+      text: 
+         \usepackage{pdfpages}
+         \renewcommand*{\partpagestyle}{empty}
+         \usepackage{makeidx}
+         \makeindex
+    include-before-body:
+      text: 
+        \includepdf[pages=1]{oi-cover.pdf}
+    include-after-body:
+      text: 
+        \printindex
+  epub:
+    epub-cover-image: oi-cover.png
+  html: 
+    theme: cosmo
+
+bibliography: references.bib
+

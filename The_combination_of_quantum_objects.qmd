@@ -1,0 +1,11 @@
+# The Combination of Quantum Objects {#sec-The_combination_of_quantum_objects}
+
+Quantum objects have been introduced in an earlier chapter. These objects, if not the most fundament entities, are quite basic to the constitution of the inorganic layer of reality. In contributing to the complexity of the real world these objects must combine. 
+
+Many calculations in quantum mechanics can be carried out by considering a single isolated system and its the operator representing the total energy of the system - the Hamiltonian. That is how the spectrum of the Hydrogen atom is calculated and how tunnelling is analysed. However, it is especially important in examining contextual issues to consider mathematical representation of the combination and interaction of objects. Having introduced the concept of the $\sigma$-complex for an isolated system, the $\sigma$-complex of two systems $S_1$ and $S_2$ will now be constructed.
+
+As is standard in the von Neumann formulation [@vonneumann1932], if the Hilbert spaces $\mathcal{H}_1$ associated with object $S_1$  and $\mathcal{H}_2$ associated with object $S_2$, the Hilbert space of  the combined object $S_1 + S_2$ is the tensor product $\mathcal{H}_1 \otimes  \mathcal{H}_2$.
+
+Given the combined system $S_1 + S_2$ with the $\sigma$-complex  $Q(\mathcal{H}_1)\oplus Q(\mathcal{H}_2)$, there is a unique Hilbert space $\mathcal{H}_1\otimes \mathcal{H}_2$ such that $Q(\mathcal{H}_1) \oplus Q(\mathcal{H}_2) \cong Q(\mathcal{H}_1\otimes\mathcal{H}_2)$, where $\cong$ means equivalence unique up to isomorphism. For the proof, in finite dimensional Hilbert spaces, see @kochen2015reconstruction. 
+
+The combination of two quantum objects gives a quantum object. This would build up a world consisting only of quantum objects. Is this the case or do the quantum charactertics weaken with many combinations? We will return to this question.

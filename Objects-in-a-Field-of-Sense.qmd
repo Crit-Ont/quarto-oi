@@ -1,0 +1,55 @@
+# Objects in a Field of Sense {#sec-field-of-sense}
+
+Within the layers and spheres described in *Hartmann’s architecture for critical ontology*, there is scope for introducing further structure. A **Field of Sense** [@gabriel2015] is an organizational concept that can be employed within a layer or within a sphere.
+
+While not all of Gabriel’s consequences from his full ontology can be accepted within the critical approach adopted from Hartmann, a Field of Sense remains a potentially useful concept. It fits with Hartmann's distinction of item and object. An object is an item that appears in the context of other items. Some of these items become objects in their turn. Entities become objects in a Field of Sense.
+
+## Defining the Field of Sense
+
+A Field of Sense is a domain in which objects appear in relationship to each other. The nature of these appearances depends on the properties of the objects involved.
+
+- **Example:** A cube of ice melting on a table in a warm living room.
+  - The **living room**, with all its other objects, is the Field of Sense.
+  - The **table, air, and ice** are some of the objects appearing within it.
+  - **Recursive Structure:** The living room can itself be an object within a larger Field of Sense, such as **the house**.
+
+### Gabriel’s Original Ontology
+
+For Gabriel, the mode of existence of an object depends entirely on the Field of Sense that grants it. In this view:
+
+- **Existence:** To exist is to appear in a Field of Sense (belonging to a domain of appearance).
+
+- **Sense:** Derived from Frege [@frege1962], Gabriel generalizes "sense" from the grasping of a concept to the context that makes an appearance possible.
+
+- **Example:** The "Morning Star" and "Evening Star" are two senses of the object Venus.
+
+- **The Negative Result:** Gabriel argues that the "World" (the totality of all that exists) would have to be the Field of Sense of all Fields of Sense. Since it cannot appear within a larger field, Gabriel concludes that **the World does not exist.**
+
+Note that in the example of Venus there are two Fields of Sense. The critical analysis would say that one object, Venus, has at least two modes of existence. Gabriel seems to be committed to two objects: the morning star and the evening star.
+
+
+### Proposed Modification: "The World is not an Object"
+
+The following revised logical scheme is proposed to respond to the objection that existence is not strictly synonymous with appearance. While objects appear in fields that consist of other entities, appearance may not exhaust the meaning of "existing." Hartmann already reserves the term "object" for an entity that exists in relation to other entities.
+
+### The Revised Logical Scheme
+
+1.  **Appearance:** The properties of all objects appear in a Field of Sense.
+2.  **Sense:** A sense is the specific way in which an object appears.
+3.  **Recursion:** A Field of Sense can be an object in yet another Field of Sense.
+4.  **Relationality:** A Field of Sense must contain multiple objects; appearance is always a relationship.
+5.  **Totality:** The world cannot be an object in a Field of Sense (otherwise it would require a larger field to appear in).
+6.  **Definition of Objecthood:** To be an **object** is to appear in some Field of Sense.
+7.  **Conclusion:** *The World is not an object.*
+
+> **Note:** This eliminates Gabriel’s paradox. The World exists as a total system, but because it has no external entity to relate to, it cannot be categorized as an *object*.
+
+
+## Scope and Reference
+
+- **Scope of Existence:** The physical universe, people, scientific theories, and fictional characters all exist in at least one Field of Sense.
+- **Reference:** Fields of Sense are differentiated by reference [@frege1962]. Reference enables the recognition of the field in which an object appears, preventing "reference mistakes" (e.g., mistaking a TV play for one's actual family life).
+
+### Conclusion
+
+By shifting the headline result from *"The World does not exist"* to ***"The World is not an object,"*** we maintain ontological realism. This allows for investigation within and across **Hartmann’s strata** (Inorganic, Organic, Psychic, and Spiritual) and both ontic spheres without the  paradox of Gabriel's radical stance.

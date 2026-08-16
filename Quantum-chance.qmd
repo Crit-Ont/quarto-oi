@@ -1,0 +1,149 @@
+# Quantum chance {#sec-Quantum-chance}
+
+In contrast to other formulations of quantum mechanics, the theory proposed here describes a world of objective chance events.
+
+## Quantum States
+As presented in an earlier chapter, the properties of a quantum object are represented by self-adjoint operators, and these operators act on the elements of a Hilbert space. The concept of the state of a quantum system or object will now be presented. This concept of state is closely aligned with that in statistical mechanics, but the probabilistic quantum state is a property of an individual object rather than a statistical ensemble. As quantum states generalize classical probabilities, the discussion starts with a brief overview of probability measures.
+
+### Probability Measures
+Classical probability [@kolmogorov2018] provides a probability measure—a countably additive, $[0,1]$-valued measure—that is a function:
+
+$$p: B \to [0,1]$$
+
+with domain $B$, a $\sigma$-algebra of subsets of the state space $\Omega$, such that $p(\mathbf{1}) = 1$, where $\mathbf{1}$ is the identity in the algebra $B$, and:
+
+$$p\left(\bigcup_i e_i\right) = \sum_i p(e_i) \quad \text{for pair-wise disjoint elements } e_1, e_2, \dots \text{ in } B.$$
+
+In the case of a system $\mathbf{S}$, an object more complex than a single particle, the probability function $p$ gives the probabilities over the $\sigma$-algebra of events for that system as a whole. A physical theory predicts the probabilities of outcomes of any possible situation given the complete initial state.
+
+States of a system $\mathbf{S}$ in quantum mechanics are, in general, represented by density matrices acting on a Hilbert space, $\mathcal{H}_\mathbf{S}$. Density matrices are non-negative, trace-class operators, $\rho$, of trace $1$, that is:
+
+$$\rho = \rho^* \ge 0, \quad \text{with } \text{tr}(\rho)=1.$$
+
+The expectation of a physical quantity, $\hat{X} \in \mathcal{O}_\mathbf{S}$ (the set of properties for the system), at time $t$ in a state given by a density matrix $\rho$ is defined by:
+
+$$p(X(t)) := \text{tr}(\rho X(t))$$
+
+where $X(t)$ is the operator representing the physical property $\hat{X}(t)$. This can be extended to all bounded operators in $\mathcal{A}(\mathcal{H}_\mathbf{S})$, the $*$-algebra of all bounded operators acting on $\mathcal{H}_\mathbf{S}$.
+
+From the mathematical formulation by Kochen [@kochen2015reconstruction], adapted here, there is a one-to-one correspondence between states $p$ on the $\sigma$-complex $Q(\mathcal{H})$ and density operators.
+The use of the same symbol as for the classical event probability $p(x)$ for the quantum state is because this mathematical description of the quantum state is a generalization of the classical probability model from a single $\sigma$-algebra to a $\sigma$-complex. A density operator $\rho$ defines a probability measure $p$ on $Q(\mathcal{H})$, the $\sigma$-complex of projections. The converse, that a state $p$ defines a unique density operator $\rho$ on $\mathcal{H}$, follows from a theorem of Gleason [@Gleason1957]. A state on the lattice of projections on $\mathcal{H}$ defines a unique density operator. A lattice consists of a partially ordered set in which every pair of elements has a unique least upper bound and a unique greatest lower bound.
+
+### Pure and Mixed States
+In Quantum Mechanics, there is a one-to-one correspondence between the pure states of a system and rays of unit vectors $\psi$ in $\mathcal{H}$, such that $p(X) = (\psi, X \psi)$. The pure states correspond to one-dimensional projections $\pi_\psi$ (with $\psi$ in the image of $\pi_\psi$) and $p(X) = \text{tr}(\pi_\psi X) = (\psi, X \psi)$.
+
+That even the pure states predict probabilities that are not $0$ or $1$ is what is to be expected of projections onto property values. A pure state simply predicts the probabilities of property values that can become actual in interactions. Mixed states are mixtures of the pure states, and in general, there is no unique decomposition of a mixed state into pure states.
+
+## Properties or Observables
+An observable is nothing more than a property of a quantum object that has a set of possible values that become actual values in interaction with other objects and can appear in various contexts. It need not actually be "observed" in an experiment to do so. In the theory, each such property is represented by a self-adjoint operator that has a spectrum that corresponds to the set of possible property values.
+
+This concept of property can, as argued above, be treated within the $\sigma$-complex formulation [@kochen2015reconstruction]. Kochen shows that there is a one-to-one correspondence between observables $\omega$ such that:
+
+$$\omega: B(\mathbb{R}) \to Q(\mathcal{H}),$$
+
+where $B(\mathbb{R})$ is the $\sigma$-algebra of Borel sets (any set in a topological space that can be formed from open sets, or from closed sets, through the operations of countable union, countable intersection, and relative complement is a *Borel set*) generated by the open intervals of the real numbers, $\mathbb{R}$.
+
+Given $\pi_\lambda = \omega((-\infty,\lambda])$, there is a Hermitian operator $A$ such that:
+
+$$A=\int \lambda \, d\pi_\lambda.$$
+
+Conversely, given a Hermitian operator $A$ on $\mathcal{H}$, the spectral decomposition above defines the representation of a property $\omega$ as the spectral measure $\omega(s)= \int_s d\pi_\lambda$, for $s\in B(\mathbb{R})$. This establishes the one-to-one correspondence and the equivalence of a key element of the reconstruction to that of standard quantum mechanics.
+
+It follows that if $\omega: B(\mathbb{R}) \to Q(\Omega)$ is a representation of a property with corresponding self-adjoint operator $X$, then, for the state $p$ with corresponding density operator $\rho$, the expectation of $\omega$ is:
+
+$$\text{Exp}_p(\omega) = \text{tr}(X \rho).$$
+
+The result shows the close connection between the spectrum of an operator and the $\sigma$-algebra of property values. For instance, for the case of a discrete operator $X$, the spectral decomposition $X = \sum a_i \pi_i$ defines the $\sigma$-algebra of property values generated by the set $\{\pi_{i}\}_i$. Conversely, given the $\sigma$-algebra of property values, the elements of the set $\{\pi_i\}_i$ allow the definition, for each sequence of real numbers $a_i$, of the Hermitian operator $\sum a_i \pi_i$.
+
+## Symmetries
+In the standard formulation of quantum physics, symmetries appear as unitary transformations of Hilbert space vectors or Hermitian operators. Here they also appear naturally as symmetries of a $\sigma$-complex.
+
+An automorphism of a $\sigma$-complex $Q$ is a one-to-one transformation $\alpha: Q\to Q$ of $Q$ onto $Q$ such that for every $\sigma$-algebra $B$ in $Q$ and all $e, e_1, e_2, \dots$ in every $B$:
+
+$$\alpha(e^\bot)=\alpha(e)^\bot \quad \text{and} \quad \alpha \left(\sum_i e_i\right)=\sum_i \alpha(e_i),$$
+
+where $\bot$ denotes the orthogonal complement.
+
+There is a one-to-one correspondence between symmetries $\alpha: Q(\mathcal{H}) \to Q(\mathcal{H})$ and unitary operators $u$ on $\mathcal{H}$ such that $\alpha(X) = uXu^{-1}$, for all $X \in Q(\mathcal{H})$. If a state $p$ corresponds to the density operator $\rho$, then:
+
+$$p_\alpha(X) = p(\alpha^{-1} (X)) = \text{tr}(\rho u^{-1} Xu) = \text{tr}(u \rho u^{-1}X) \qquad \text{(*)}$$
+
+so that the state $p_\alpha$ corresponds to the density operator $u \rho u^{-1}$. This shows the mathematical equivalence between the $\sigma$-complex and the density matrix formulations under symmetry transformation.
+
+Now that the mathematical formalism in terms of $\sigma$-complexes has been presented, it is possible to develop a theory that describes the micro-physical world as governed by quantum chance. By chance is meant objective probability that is a physical property of objects in the real sphere rather than a description of uncertainty in the epistemic sphere. This will, among other attributes, allow the derivation of the quantum conditional probability that provides an explanation of quantum state reduction.
+
+In standard quantum mechanics, the term "reduction" usually means the reduction of the wavefunction and so is conceptually tied to the Schrödinger picture. Although there is a mathematical equivalence between the Schrödinger picture and the formalism developed in this paper, the state as a set of probability measures on a $\sigma$-complex of projection operators describes a physics of dispositions rather than waves in either real space or some more abstract space. As such, the position is closer to that of matrix mechanics of early quantum physics, but with more ontological detail on the role of probabilities.
+
+### Conditional States
+State reduction is a phenomenon that may seem unique to quantum mechanics and has no counterpart in classical mechanics, but this is not the case. Conditional probability plays that role classically, but the objective ensemble or relative frequency interpretations of probability are available, which means that no conceptual problem is posed by the "reduction" of the probability distribution. With this in mind, conditional probability will now be generalized to quantum mechanics.
+
+If $p$ is a state on $Q(\mathcal{H})$ and $Y$ a projection operator in $Q(\mathcal{H})$ such that $p(Y) \ne 0$, then it will be shown that there exists a unique state $p(\,\cdot \mid Y)$ conditional on $Y$. If $\rho$ is the density operator corresponding to $p$, then to see that the operator $Y\rho Y/\text{tr}(Y \rho Y)$ corresponds to the state $p(\,\cdot \mid Y)$, note that if $X$ lies in the same $\sigma$-algebra as $Y$, then $X$ and $Y$ commute, so:
+
+$$\begin{aligned}
+\text{tr}(Y \rho YX)/ \text{tr}(Y \rho Y) &= \text{tr}(\rho XY)/ \text{tr}(\rho Y) \\
+&= p(X \cdot Y)/p(Y) \\
+&= p(X \mid Y),
+\end{aligned}$$
+
+which is the standard form for conditional probability. It is proposed that the expression:
+
+$$p(X\mid Y) = \text{tr}(Y \rho YX)/ \text{tr}(Y \rho Y) \qquad \text{(**)}$$
+
+generalizes the conditional probability state to the case when $X$ and $Y$ do not commute.
+
+The mapping of $\rho$ to $Y \rho Y/ \text{tr}(\rho Y)$ is the formula for the reduction of state given by the von Neumann-Lüders Projection Rule [@Luders1951]. In standard quantum mechanics, this rule is an additional principle appended to quantum mechanics. Here it appears as the unique answer to conditioning a state to a specific projection operator.
+
+From the symmetry transformation of the state, equation (*):
+
+$$\begin{aligned}
+p_\alpha (X \mid Y) &= \frac{p_\alpha (X Y)}{p_\alpha(Y)} \\
+&= \frac{p (\alpha^{-1}(X Y))}{p(\alpha^{-1}(Y))} \\
+&= \frac{p (\alpha^{-1}(X) \alpha^{-1}(Y))}{p(\alpha^{-1}(Y))} \\
+&= p(\alpha^{-1}( X) \mid \alpha^{-1}(Y))
+\end{aligned}$$
+
+The results in this subsection hold when $X$ and $Y$ are in the same commutative von Neumann sub-algebra corresponding to a sub-$\sigma$-algebra of $Q(\mathcal{H})$. The next subsection covers the more interesting case of when they are in different sub-algebras and there is a correction to the form of the conditional probability that is well known from classical probability.
+
+### Total Probability in Classical and Quantum Conditional Probability
+The Law of Total Probability (or Law of Alternatives in the discrete case, as here) provides a useful method to partition and analyze conditional probabilities. Firstly, in the classical case, let $Y_1, Y_2, \dots$ lie in a $*$-algebra of commuting projection operators with $Y_i Y_j= 0$ for $i \ne j$, and let $Y=\sum_i Y_i$, then:
+
+$$\begin{aligned}
+p(X \mid Y) &= p\left(\sum_i (X Y_i)\right)/p(Y) \\
+&= \sum_i (p(X Y_i)/p(Y_i)) (p(Y_i)/p(Y)) \\
+&= \sum_i p(X \mid Y_i)p(Y_i \mid Y)
+\end{aligned}$$
+
+Not only is this partition useful, but it also displays clearly how the quantum case differs from the classical.
+
+From equation (**), above:
+
+$$\begin{aligned}
+p(X \mid Y) &= \text{tr}(Y\rho Y X)/ \text{tr}(\rho Y) \\
+&= \text{tr}\left(\sum_{i,j} Y_i \rho Y_j X\right) / \text{tr}(\rho Y) \\
+&= \sum_i \text{tr}(Y_i \rho Y_i X)/ \text{tr}(\rho Y) + \sum_{i\ne j} \text{tr}(Y_i \rho Y_j X)/ \text{tr}(\rho Y) \\
+&= \sum_i p(X \mid Y_i)p(Y_i\mid Y) + \sum_{i\ne j} \text{tr}(Y_i \rho Y_j X)/ \text{tr}(\rho Y).
+\end{aligned}$$
+
+This shows that for conditional properties, an interference term must be added to the classical law of total probability. When $X$ commutes with each $Y_i$, the interference term is zero.
+
+A measurement of a property is the most familiar example of conditioning with respect to several properties. If a property represented by an operator $A$ has a spectral decomposition $\sum_i a_i \pi_{i}$, then measuring the observable amounts to registering the values of the properties given by the $\pi_{i}$. The interaction algebra $B_A$ is that generated by the $\pi_{i}$.
+
+Conditioning can be used to define the context for the dynamics of a quantum object. In general, this requires the notion of conditioning with respect to several conditions.
+
+Given a system with $\sigma$-complex $Q$ and disjoint elements $Y_1, Y_2, \dots$ in a common $\sigma$-algebra in $Q$ with $\sum_i Y_i=\mathbf{1}$, and a state $p$, the state conditional on $Y_1, Y_2, \dots$ is defined to be $p(\,\cdot \mid Y_1, Y_2, \dots) = \sum p(Y_i)p(\,\cdot \mid Y_i)$. This can be written more compactly as $p(\,\cdot \mid B_A)$, the state conditional on the interaction algebra $B_A$.
+
+For a quantum system, with $\sigma$-complex $Q(\mathcal{H})$ and if $\rho$ is the density operator corresponding to the state $p$:
+
+$$p(\cdot \mid B_A) = \sum \text{tr}(\rho Y_i)(Y_i\rho Y_i/ \text{tr}(\rho Y_i)) = \sum Y_i \rho Y_i,$$
+
+so that for each $X$ the probability $p(X \mid B_A) = \sum_i \text{tr}(Y_i\rho Y_i X)$.
+
+The natural definition for applying a symmetry to the conditioned state is given by:
+
+$$p_\alpha (X \mid B_A) = p(\alpha^{-1}(X)\mid \alpha^{-1}(B_A)).$$
+
+The $\sigma$-algebra $B_A$ generated by the $Y_1, Y_2, \dots$ is simply a sub-algebra of the $\sigma$-complex.
+
+## Summary
+There is an equivalence between quantum states and the probabilities describing objective chance. That we are dealing with a generalization of probability theory is made evident in the equation for the conditional probability that introduces extra terms due to quantum interference.
+

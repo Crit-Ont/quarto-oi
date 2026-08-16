@@ -1,0 +1,63 @@
+# Economic Entities {#sec-economic-entities}
+
+An economic ontology typically identifies a handful of core entity types that everything else is built from. The usual breakdown:
+
+**Agents (who acts)**
+- Households/individuals — consumers, laborers, savers
+- Firms/enterprises — producers, employers
+- Government/state — regulator, taxer, spender
+- Financial institutions — banks, intermediaries
+- Foreign sector — other economies, trade partners
+
+**Resources/factors**
+- Land (natural resources)
+- Labor
+- Capital (physical and financial)
+- Entrepreneurship/organization (sometimes treated as a fourth factor)
+
+**Objects of exchange**
+- Goods (durable, non-durable)
+- Services
+- Money/currency
+- Financial instruments (bonds, equities, derivatives)
+- Property rights/claims
+
+**Relations/processes**
+- Markets (the venues/mechanisms where agents interact)
+- Transactions (exchange events)
+- Contracts (formalized obligations)
+- Prices (the valuation relation between agents and goods)
+- Production (transformation of inputs to outputs)
+- Distribution (allocation of output/income)
+
+**Institutions (the rules layer)**
+- Property rights
+- Legal/regulatory frameworks
+- Norms and conventions
+- Organizations (firms, central banks, regulatory bodies) as durable structures rather than momentary actors
+
+**Flows vs. stocks** — a cross-cutting distinction:
+- Stocks: wealth, capital assets, inventory, debt outstanding
+- Flows: income, expenditure, investment, output over a period
+
+If you're building this for a formal ontology (e.g., OWL/RDF for economic data, or a conceptual model for a course/paper), it helps to separate these into three layers: **actors** (who), **artifacts** (what is exchanged/held), and **events/relations** (transactions, contracts, production) — with institutions sitting alongside as constraints on how actors and artifacts can relate.
+
+Is there a particular use case — academic ontology design, a data model, or general conceptual understanding? That'd help me tailor the depth and structure.
+
+Public domain status depends on original publication date and jurisdiction, but here's how the list breaks down:
+
+**Clearly public domain**
+- **Marx, *Capital* Vol. I (1867)** — original German text is public domain. The classic English translation by Samuel Moore and Edward Aveling (1887) is also public domain, and is the version widely available on Marxists Internet Archive, Project Gutenberg, etc.
+- **Menger, *Grundsätze der Volkswirtschaftslehre* (1871)** — original German is public domain (author died 1921, well past life+70).
+
+**Likely public domain, but check the specific edition**
+- **Commons, *Institutional Economics* (1934)** — U.S. works published 1929–1963 only remain in copyright if renewal was filed; many weren't. Worth checking the U.S. Copyright Office renewal records or HathiTrust's copyright review before assuming.
+- **The 1950 English translation of Menger** (by Dingwall & Hoselitz, published by the Free Press/Ludwig von Mises Institute) — this specific translation is *not* automatically public domain just because the original German is. The Mises Institute has in fact released it freely online, so it's accessible even if not technically PD — worth checking their license terms.
+
+**Not public domain**
+- **Searle (1995), Lawson (1997, 2003), Mäki (2001), Ross (2005), Hodgson (2001), MacKenzie (2006)** — all recent enough to be under active copyright.
+- **Arrow & Debreu (1954), Econometrica article** — copyrighted, though frequently available via university library access or JSTOR.
+- **McCarthy (1982) REA paper, Gordijn & Akkermans (2003)** — copyrighted journal articles.
+- **FIBO** — not "public domain" in the copyright sense, but the spec itself is openly published and free to use under EDM Council's terms (worth checking their license page, not a PD status).
+
+If you want, I can point you to specific open-access repositories (Marxists.org, Mises.org, archive.org, SEP bibliography links) for the PD/freely-available ones rather than just flagging status.

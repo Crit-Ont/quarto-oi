@@ -1,0 +1,37 @@
+# Index
+
+::: {.content-visible when-format="pdf"}
+\printindex
+:::
+
+
+::: {.content-visible unless-format="pdf"}
+- **FOUNDATIONS** 
+  - [Layered Ontology](Why_critical_ontology.qmd#index-ontology)
+  - [Dispositions](#index-dispositions)
+:::
+
+::: {.content-visible unless-format="pdf"}
+- **PHYSICAL LAYER** 
+  - [Physics](#index-physical)
+  - [Chemistry](#index-chemistry)
+:::
+
+
+::: {.content-visible unless-format="pdf"}
+- **ORGANICL LAYER** 
+  - [Selection](#index-selection)
+  - [Genes](#index-genes)
+:::
+
+::: {.content-visible unless-format="pdf"}
+- **PSYCHICAL LAYER** 
+  - [Mind](#index-psychical)
+  - [Perception](#index-perception)
+:::
+
+::: {.content-visible unless-format="pdf"}
+- **SPIRITUAL LAYER** 
+  - [Society](#index-society)
+  - [Government](#index-government)
+:::

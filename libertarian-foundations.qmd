@@ -1,0 +1,45 @@
+# Libertarian Foundations {#sec-libertarian-foundations}
+
+## Robert Nozick and Michael Huemer: A Comparative Analysis of Libertarian Foundations
+
+Robert Nozick and Michael Huemer are both central figures in contemporary libertarian political philosophy, yet their approaches diverge sharply in foundations, method, and normative structure. Nozick represents the classical, rights‑absolutist tradition inaugurated in *Anarchy, State, and Utopia*, whereas Huemer exemplifies the post‑Nozick turn toward common‑sense morality and non‑ideal political reasoning.
+
+### Foundations: Self‑Ownership vs. Common‑Sense Morality
+
+Nozick grounds libertarianism in the principle of **self‑ownership** and the associated system of **side‑constraints**. Rights are treated as near‑absolute limits on permissible action, and any state activity beyond the minimal state is ruled out because it violates these constraints. His theory is metaphysically ambitious, deriving political conclusions from strong foundational axioms.
+
+Huemer rejects this approach. He argues that political philosophy should begin not with metaphysical claims about ownership but with **ordinary moral intuitions**. His libertarianism is built from widely shared judgments about coercion, harm, and fairness. Rights are important but **not inviolable**; they may be overridden in exceptional circumstances. This makes Huemer’s framework more flexible and less dependent on controversial metaphysical premises.
+
+### Method: Ideal Theory vs. Non‑Ideal Reasoning
+
+Nozick’s method is architectonic and ideal‑theoretic. He constructs a systematic philosophical model and uses abstract thought experiments—such as the Wilt Chamberlain argument—to show that patterned theories of justice inevitably conflict with liberty.
+
+Huemer’s method is deliberately non‑ideal. He focuses on real‑world institutional failures, epistemic limitations, and the moral presumptions ordinary agents rely on. His work aligns with the contemporary PPE (Philosophy, Politics, and Economics) style: empirically sensitive, anti‑systematic, and grounded in practical reasoning rather than metaphysical theory-building.
+
+### Political Authority and Coercion
+
+Both philosophers challenge the moral legitimacy of political authority, but they do so in different ways. Nozick argues that the minimal state is justified because it protects rights without violating them; anything more extensive is morally impermissible. His “Tale of the Slave” illustrates the continuity between political coercion and morally problematic domination.
+
+Huemer’s critique is broader. He maintains that political authority is a **moral illusion**: states possess no special moral permission to coerce beyond what individuals have. Coercion is presumptively wrong, though not absolutely forbidden. This position is more radical in scope but less rigid in its foundations.
+
+### Redistribution and the Scope of the State
+
+For Nozick, redistribution is categorically unjust because it violates self‑ownership. The minimal state is the only morally legitimate political structure.
+
+Huemer also opposes most forms of redistribution, but his opposition is grounded in common‑sense moral presumptions rather than rights absolutism. He allows that extreme circumstances may justify coercive redistribution, though such cases are rare.
+
+### Summary Table
+
+| Dimension | Robert Nozick | Michael Huemer |
+|----------|----------------|----------------|
+| **Foundation** | Self‑ownership; rights absolutism | Common‑sense morality; rejects absolutism |
+| **Method** | Ideal theory; abstract system | Non‑ideal; empirical; intuitive |
+| **State** | Minimal state justified by rights | State authority morally unjustified |
+| **Coercion** | Nearly always wrong | Presumptively wrong but overridable |
+| **Redistribution** | Rights violation | Usually wrong, sometimes justified |
+| **Tone** | Architectonic, metaphysical | Practical, intuitive, epistemic |
+
+### Concluding Contrast
+
+Huemer’s project can be understood as a post‑Nozick development: he preserves many libertarian conclusions but replaces Nozick’s controversial metaphysical foundations with moral intuitions that ordinary agents already accept. In doing so, Huemer offers a more accessible and empirically grounded libertarianism, while Nozick remains the paradigmatic architect of rights‑based minimal‑state theory.
+

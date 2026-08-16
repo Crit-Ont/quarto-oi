@@ -1,0 +1,175 @@
+# A Relational Reconstruction of Quantum Mechanics  {#sec-A_Relational_Reconstruction_of_Quantum_Mechanics}
+
+The mathematical formulation to be discussed here is a modification of Kochen's Reconstruction of Quantum Mechanics [@kochen2015reconstruction]. It concentrates on a mathematical formulation using a union of $\sigma$-algebras that he calls a **complex**. In Kochen's reformulation, it is through the interaction of a quantum system under consideration with another system that properties gain physical values. Such properties are said by Kochen to be **relational** or **extrinsic**, as opposed to fixed intrinsic properties such as the charge of an electron.
+
+While the mathematics depends heavily on the reconstruction by Kochen, it makes use of **von Neumann $*$-algebras** (see Thirring [@thirring1979course]) rather than the Boolean algebras used by Kochen. This choice is made to avoid any hint of a logical interpretation and will be useful when we move on to discussing relativistic quantum mechanics and field theory. This formulation also differs from Kochen's in the treatment and assignment of both intrinsic and extrinsic properties. The extrinsic properties will be treated here as an actualization of potential, [dispositional properties](The-ontology-of-dispositions.qmd) of the quantum entity that are shaped by its context.
+
+In the mathematical formulation of quantum mechanics, a physical system, $\mathbf{S}$, is characterized by a list of properties (called observables in standard quantum mechanics) that can be represented by abstract self-adjoint operators:
+
+
+$$\mathcal{O}_\mathbf{S}=\{ \hat{X}_i = \hat{X}^*_i \mid i \in \mathcal{I}_\mathbf{S}\},$$
+
+
+with $\mathcal{I}_\mathbf{S}$ a set of indices depending on $\mathbf{S}$, where every operator $\hat{X} \in \mathcal{O}_\mathbf{S}$ represents a physical property characteristic of $\mathbf{S}$, such as the total momentum, energy, or spin of all particles localized in some bounded region of physical space and belonging to an ensemble of (possibly infinitely many) particles constituting the system $\mathbf{S}$.
+
+At every time $t$, there is a representation of $\mathcal{O}_\mathbf{S}$ by self-adjoint operators acting on a separable Hilbert space $\mathcal{H}_\mathbf{S}$:
+
+
+$$\mathcal{O}_\mathbf{S} \ni \hat{X}_i \mapsto X_i = X^*_i \in \mathcal{A}(\mathcal{H}_\mathbf{S}),$$
+
+
+where $\mathcal{A}(\mathcal{H}_\mathbf{S})$ is the $*$-algebra of all bounded operators acting on $\mathcal{H}_\mathbf{S}$.
+
+In general, the operators in the $*$-algebra do not all commute. This has deep physical consequences:
+
+* Properties that cannot appear together are represented in quantum mechanics by self-adjoint operators that do not all commute.
+* The sets of operators that do commute provide a set of properties for a measurable mathematical structure which is a **$\sigma$-algebra**.
+
+The $\sigma$-algebra is essential to constructing mathematical probability models using the Kolmogorov axiomization [@kolmogorov2018]. Therefore, each collection of commuting observables of the object has an associated $\sigma$-algebra. So, a collection of $\sigma$-algebras that together capture all the property values associated with the object covers all possible events for that object in itself. This structure is the minimal one which contains all the $\sigma$-algebras arising from all the properties of the particle.
+
+Each dispositional property of an object, such as spin or position, has a $\sigma-algebra$ of possible values that appear in interaction with other objects. All these $\sigma$-algebras form a complex property structure for the object under consideration. The formal definition of this notion is as follows:
+
+> **Definition:** Let $F$ be a family of $\sigma$-algebras. The $\sigma$-complex $Q_F$ based on $F$ is the union, $\cup B$, of all $\sigma$-algebras $B$ lying in $F$:
+> 
+> $$Q_F = \bigcup_{B \in F} B.$$
+> 
+> 
+
+Generally, the family $F$ is left implicit, and reference is simply made to a $\sigma$-complex $Q$; however, the family $F$ does tie the complex to an object that has properties that take values depending on the set of possible interactions that it can have with other objects. Usually, $\sigma$-complexes that are closed under the formation of sub-$\sigma$-algebras are discussed. It is possible, in any case, to always close a $\sigma$-complex by adding all its sub-$\sigma$-algebras. This complex will include all the possible values that the dispositional properties of a particle can take in all possible interaction contexts. $B$ denotes the $\sigma$-algebra relating to the property values of a particular (commuting) set of observables of the particle or system.
+
+In the mathematical formulation of quantum mechanics, $\mathcal{H}$ is a Hilbert space. For the quantum object under consideration, all properties are represented by self-adjoint operators and possible events are represented by projection operators. For pairwise commuting projection operators, closure under the operation of orthogonal complement and countable product $\prod_i \pi_i$ forms a $\sigma$-algebra. The family of all such $\sigma$-algebras forms a $\sigma$-complex, $Q(\mathcal{H})$, for the object in its possible interaction contexts.
+
+## Proposition
+
+*In quantum mechanics, the operators representing the possible values of the properties of a system form the $\sigma$-complex $Q(\mathcal{H})$ of projections of the Hilbert space $\mathcal{H}$ of the system.*
+
+It has been shown [@kochen2015reconstruction] that this proposition holds and the mathematical formalism using $Q(\mathcal{H})$ is equivalent to the standard quantum formulation of the theory on $\mathcal{H}$. However, the interpretation of the formalism here is that while a quantum object has a complete set of properties, they appear only when the situation invokes the $\sigma$-algebra in the complex that allows that property to take a specific set of values.
+
+
+
+## The Measurement Problem
+
+\index{Measurement Problem} {#sec-measurement-problem}
+This treatment is adapted from Kochen's reconstruction of quantum mechanics [@kochen2015reconstruction]. It is a mathematical formulation of the theory that is equivalent to the standard formulation, but it is not a physical theory. The physical theory is the interpretation of the mathematics. The interpretation here is that the properties of a quantum object are relational and appear only in interaction with other objects. The measurement problem arises because the standard formulation of quantum mechanics assumes that an isolated system evolves unitarily according to Schrödinger's equation, but when a measurement occurs, an eigenvalue of the operator representing the observable being measured is randomly selected as the result of the measurement. This additional mechanism is not explained by the unitary evolution and leads to a contradiction between the predicted state and the observed state after measurement. 
+
+The Measurement Problem refers to a postulate in standard quantum mechanics, which assumes that an isolated system undergoes unitary evolution via Schrödinger's equation and then an eigenvalue of the operator representing the observable being measured (an observable is a property of the system that the experimental setup is designed to measure) is randomly selected as the result of the measurement, as presented by @bohm2001quantum, for example. However, if a property $\hat{A}$ of a system $S$ is measured by an apparatus $T$, the total system $S+T$, if assumed to be isolated, then undergoes unitary evolution. The random selection of an eigenvalue is an additional mechanism.
+
+## Ideal Measurement
+
+The mathematical formulation of an ideal measurement, in standard quantum mechanics, is as follows for system \(S\) in a pure state \(\phi_k\):
+
+Take the spectral decomposition of an operator representing an observable to be  
+$$
+A = \sum_i a_i \pi_i.
+$$
+
+Each $\pi_i$ is a one-dimensional projection with eigenstate $\phi_i$ and $\{a_i\}_i$ is the set of eigenvalues. The apparatus $T$ is assumed to be sensitive to the different eigenstates of $A$.
+
+Hence, if the initial state of $S$ is $\phi_k$ and the apparatus $T$ is in a neutral state $\psi_0$, so that the state of $S+T$ is  
+$$
+\phi_k \otimes \psi_0,
+$$
+the system evolves into the state  
+$$
+\phi_k \otimes \psi_k,
+$$
+where the $\{\psi_i\}_i$ are the states of the apparatus operator corresponding to the states $\{\phi_i\}_i$ of the system \(S\).
+
+$T$ and its interaction with $S$ will have been chosen to achieve this: a perfectly designed measurement apparatus to be in $\psi_l$ whenever $S$ is in $\phi_l$ for all $l$.
+
+But now, for the case of a more general initial state  
+$$
+\phi = \sum_i c_i \phi_i,
+$$
+linearity gives:
+
+$$
+\Gamma = \sum_i c_i \phi_i \otimes \psi_i.
+$$
+
+A problem with this for standard quantum mechanics is that the completed measurement gives a particular apparatus state $\psi_k$, say, indicating that the state of $S$ is $\phi_k$, so that the state of the total system is $\phi_k \otimes \psi_k$, in contradiction to the derived evolved state  
+$$
+\sum_i c_i \phi_i \otimes \psi_i.
+$$
+
+This evolution does not describe what happens in an experiment.
+
+## Conditioning and Reduction
+
+In contrast, the reduction can also be considered from the viewpoint of the conditioning of the states. If the state $p$ of $S+T$ just prior to measurement is $\rho_\Gamma$, corresponding to  
+$$
+\Gamma = \sum_i c_i \phi_i \otimes \psi_i,
+$$
+then after the measurement it is in the conditioned state, by equation (**) in the post *Quantum chance*:
+
+$$
+\begin{aligned}
+p(\cdot \mid (\pi_{\phi_k} \otimes I)(I \otimes \pi_{\psi_k})) 
+&= \frac{(\pi_{\phi_k} \otimes I)(I \otimes \pi_{\psi_k}) \rho_\Gamma (\pi_{\phi_k} \otimes I)(I \otimes \pi_{\psi_k})}{\mathbf{tr}((\pi_{\phi_k} \otimes I)(I \otimes \pi_{\psi_k}) \rho_\Gamma)} \\
+&= \frac{(\pi_{\phi_k} \otimes I)(I \otimes \pi_{\psi_k}) \left(\sum_i c_i \phi_i \otimes \psi_i\right) (\pi_{\phi_k} \otimes I)(I \otimes \pi_{\psi_k})}{\mathbf{tr}((\pi_{\phi_k} \otimes I)(I \otimes \pi_{\psi_k}) \left(\sum_i c_i \phi_i \otimes \psi_i\right))} \\
+&= \pi_{\phi_k \otimes \psi_k}.
+\end{aligned}
+$$
+
+Hence, the new conditioned state of $S+T$ is the reduced state $\phi_k \otimes \psi_k$. This is not surprising as it is conditioned on being in just the \(k\)th state of \(\rho_\Gamma\) and so it projects that element out. This is not a resolution of the measurement problem but merely makes use of the probabilistic formulation of the theory to show conditioning forces the state reduction.
+
+## Beyond Unitary Evolution
+
+Whereas standard quantum mechanics must add a means to reconcile the unitary evolution of $S+T$ with the measured reduced states of $S$ and $T$, the interpretation argued for in this paper takes the opposite approach to the orthodox interpretation. The point of departure is not the unitary development of an isolated system, but rather the result of an interaction.
+
+It is the conditions under which dynamical evolution occurs that must be further investigated, rather than the additional reduced state mechanism. Therefore, it should not be taken for granted, as assumed in standard quantum mechanics, that an isolated system evolves unitarily.
+
+The question to be addressed is whether in a measurement the $\sigma$-complex structure of $S+T$ undergoes a symmetry transformation at separate times of the process. This is formalised as the condition for the existence of a representation  
+$$
+\alpha : \mathbb{R} \to \mathrm{Aut}(Q).
+$$
+
+The outcome of a measurement cannot be given by a unitary process.
+
+## Failure of Automorphism Description
+
+A completed measurement or a state preparation has two distinct elements of  
+$$
+Q(\mathcal{H}) = Q(\mathcal{H}_S \otimes \mathcal{H}_T)
+$$
+at initial time 0 which end up being mapped to the same element at a later time \(t\).
+
+One such element is an initial state \(\phi \otimes \psi_0\) resulting in a state \(\phi_k \otimes \psi_k\), for some \(k\). However, a second such element \(\phi_k \otimes \psi_0\) also results in the state \(\phi_k \otimes \psi_k\).
+
+If the state $\phi$ is chosen to be distinct from $\phi_k$, then the two elements  
+$$
+\pi_{\phi \otimes \psi_0}, \qquad \pi_{\phi_k \otimes \psi_0}
+$$
+of $Q(\mathcal{H})$ both map to the same element  
+$$
+\pi_{\phi_k \otimes \psi_k}.
+$$
+
+However, any automorphism $\alpha_t$ is a one-to-one map on $Q$, so the measurement process cannot be described by a representation  
+$$
+\alpha : \mathbb{R} \to \mathrm{Aut}(Q),
+$$
+and hence **a unitary evolution cannot explain what is observed**.
+
+## State Reduction in Dynamics
+
+The Measurement Problem must be resolved by a theory that includes state reduction in its dynamics in addition to periods of unitary evolution. The GRW theory provides an example of a partial mechanism for this—partial because it only reduces the wavefunction to one that is more localised rather than full transition from possibility to actuality.
+
+Bohmian mechanics avoids this by proposing a particle trajectory dynamics that requires no more state reduction than in classical probability. In Bohmian mechanics the particle always has an actual position.
+
+## Internal Interactions
+
+For a composite system it should not only be outside forces that can break symmetry, but internal interactions. In the state  
+$$
+\Gamma = \sum_i c_i \phi_i \otimes \psi_i
+$$
+introduced above, the total, but still isolated, system \(S+T\) has a set of \(i\) property values associated with the states \(\{\phi_i \otimes \psi_i\}_i\).
+
+However, the interacting object \(T\) as part of the system \(S+T\) will have the state \(\phi_k\) of \(S\) appear with probability \(|c_k|^2\). This provides a matrix mechanics interpretation of reduction as a physical transition probability for the system \(S\) in the presence of the apparatus \(T\).
+
+State reduction does take place in isolated compound systems with internal interactions and the reduction of the state is due to the combined system's properties but traceable to the dispositional power to take specific property values associated with \(S\).
+
+## Timing of Experimental Records
+
+In an experiment the results are recorded at the time of the experiment. This experimental recording is not part of the formal theory. The theory provides transition probabilities but nothing to time the transition.
+

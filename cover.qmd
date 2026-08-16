@@ -1,0 +1,18 @@
+---
+format:
+  pdf:
+    keep-unknown: true
+---
+
+```{=latex}
+\thispagestyle{empty}
+\begin{center}
+\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{oi-cover.png}
+\end{center}
+\newpage
+```
+
+# Ontological Investigations {.unnumbered}
+## *From Physics to Social Structures* {.unnumbered}
+
+**Robert Johnston**

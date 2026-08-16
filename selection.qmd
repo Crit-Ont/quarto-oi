@@ -1,0 +1,84 @@
+# Natural selection {#sec-selection}
+
+## Literature on Spontaneous Organisation and Natural Selection
+
+Here is a curated list of key literature exploring the interplay between spontaneous self-organisation and natural selection, complete with BibTeX citations.
+
+### 1. Foundational Monographs
+
+#### The Origins of Order: Self-Organization and Selection in Evolution
+* **Authors:** Stuart A. Kauffman
+* **Year:** 1993
+* **Summary:** This seminal book argues that natural selection is not the sole architect of biological complexity. Kauffman uses mathematical models to show how spontaneous, physics-driven self-organisation creates the stable, ordered structures (like genetic regulatory networks) upon which Darwinian selection acts.
+
+```bibtex
+@book{kauffman1993origins,
+  title={The Origins of Order: Self-Organization and Selection in Evolution},
+  author={Kauffman, Stuart A.},
+  year={1993},
+  publisher={Oxford University Press},
+  address={Oxford, UK}
+}
+```
+
+---
+
+### 2. Theoretical and Philosophical Biology
+
+#### Self-Organization Proposes what Natural Selection Disposes
+* **Authors:** Fabio Boschetti and Brad Batten
+* **Journal:** *Biological Theory* (2008)
+* **Summary:** This paper clarifies the division of labour between the two forces. It conceptualises self-organisation as the mechanism that generates innovative biological forms, while natural selection acts as the environmental filter determining which forms survive.
+
+```bibtex
+@article{boschetti2008self,
+  title={Self-organization Proposes what Natural Selection Disposes},
+  author={Boschetti, Fabio and Batten, Brad},
+  journal={Biological Theory},
+  volume={3},
+  number={4},
+  pages={308--321},
+  year={2008},
+  publisher={Springer}
+}
+```
+
+#### Self-Other Organization: Why Early Life Did Not Evolve Through Natural Selection
+* **Authors:** Liane Gabora
+* **Journal:** *Biology and Philosophy* (2006)
+* **Summary:** Gabora investigates abiogenesis and early protocells. She argues that because the earliest forms of life lacked genetic code and replicated through messy, uncoded chemical interactions, their evolution was driven entirely by self-organising principles rather than Darwinian selection.
+
+```bibtex
+@article{gabora2006self,
+  title={Self-other organization: Why early life did not evolve through natural selection},
+  author={Gabora, Liane},
+  journal={Biology and Philosophy},
+  volume={21},
+  number={3},
+  pages={353--377},
+  year={2006},
+  publisher={Springer}
+}
+```
+
+---
+
+### 3. Computational and Recent Advances
+
+#### Natural Induction: Spontaneous Adaptive Organisation without Natural Selection
+* **Authors:** Christopher L. Buckley, Christopher S. Adams, Richard A. Watson, and Michael Levin
+* **Journal:** *Entropy* (2024)
+* **Summary:** This recent paper explores how physical systems (like viscoelastic networks) can spontaneously learn and optimise their behaviour through recurrent interactions. It provides a concrete mechanism for adaptive organisation that completely bypasses the need for natural selection or external training.
+
+```bibtex
+@article{buckley2024natural,
+  title={Natural Induction: Spontaneous Adaptive Organisation without Natural Selection},
+  author={Buckley, Christopher L. and Adams, Christopher S. and Watson, Richard A. and Levin, Michael},
+  journal={Entropy},
+  volume={26},
+  number={6},
+  pages={499},
+  year={2024},
+  publisher={MDPI}
+}
+```

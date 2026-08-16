@@ -1,0 +1,31 @@
+# Bell's Theorem and Locality {#sec-Bell-and-locality}
+
+## Primary Literature & Philosophical Texts
+*   **Albert, D. Z.** (1992). *Quantum Mechanics and Experience*. Cambridge, MA: Harvard University Press.
+    *   *Context:* This is David Albert's foundational text. He uses accessible analogies (such as color and hardness experiments) to break down the EPR paradox, hidden variables, and the philosophical consequences of Bell's Theorem.
+*   **Bell, J. S.** (1964). "On the Einstein Podolsky Rosen Paradox." *Physics Physique Fizika*, 1(3), 195–200.
+    *   *Context:* The original paper where John Stewart Bell mathematically proved that local hidden variable theories cannot reproduce all the predictions of quantum mechanics.
+*   **Bell, J. S.** (1987). *Speakable and Unspeakable in Quantum Mechanics: Collected Papers on Quantum Philosophy*. Cambridge: Cambridge University Press.
+    *   *Context:* A collection of Bell's papers on quantum philosophy, detailing his views on the "gross nonlocality of nature."
+
+## Historical & Theoretical Context
+*   **Einstein, A., Podolsky, B., & Rosen, N.** (1935). "Can Quantum-Mechanical Description of Physical Reality be Considered Complete?" *Physical Review*, 47(10), 777–780.
+    *   *Context:* The historic "EPR paper" that introduced the concepts of local realism and quantum entanglement, which Bell's Theorem later tested.
+*   **Myrvold, W., Genovese, M., & Shimony, A.** (2020). "Bell’s Theorem." *The Stanford Encyclopedia of Philosophy*. Zalta, E. N. (Ed.).
+    *   *Context:* A peer-reviewed philosophical overview tracking how David Albert and other modern philosophers interpret statistical independence and nonlocality.
+
+Clauser, J.F., 1976, “Experimental investigation of a polarization correlation
+anomaly,” Physical Review Letters, 36: 1223–1226.
+
+–––, 2017, “Bell’s theorem, Bell inequalities, and the ‘probability
+normalization loophole’,” in Bertlmann and Zeilinger (eds.), 451–484.
+
+Clauser, J.F. and Horne, M.A., 1974, “Experimental consequences of
+objective local theories,” Physical Review D, 10: 526–535.
+
+Clauser, J.F., Horne, M.A., Shimony, A., and Holt, R.A., 1969, “Proposed
+experiment to test local hidden-variable theories,” Physical Review
+Letters, 23: 880–884.
+
+Clauser, J.F. and Shimony, A., 1978, “Bell’s theorem: experimental tests and
+implications,” Reports on Progress in Physics, 41: 1881–1927

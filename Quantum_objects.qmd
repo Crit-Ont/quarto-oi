@@ -1,0 +1,67 @@
+# Ontology and the Quantum Object {#sec-Quantum_objects}
+
+## Introduction to Physical Ontology
+
+Quantum mechanics is part of physics and experimentation is an activity in physics. Therefore, the entities of interest in physics must be observable to some extent. They must make an appearance. That is, entities of interest must be **objects**; they appear in at least one **field of sense** (@sec-field-of-sense).
+
+The ontological framework for the discussion will be that quantum objects are physical objects that have some properties that can appear in one of a collection of fields of sense. To move from ontology to physical theory, an explanatory structure is needed and, when possible, a mathematical formulation is adopted that describes the behavior of the quantum objects in a precise way.
+
+## The Problem of Contextuality
+
+There are puzzling and paradoxical effects of quantum mechanics, be they the thought experiments of Einstein, Podolsky and Rosen (EPR) or Wigner's friend with Schrödinger's cat, or even double-slit experiment. These effects to the need to re-examine what is meant by a **physical property** of an object.
+
+In quantum mechanics, it is known that all properties need a specific context in which to appear as quantified values. This is known to be the case in general from the work of **Kochen and Specker ** [@kochen1967], but has been a common understanding among physicists based on insights obtained from experiments such as that of **Stern and Gerlach** [@gerlach1922richtungsquantelung].
+
+## Position, Momentum, and the Field of Sense
+
+Before moving on to spin, consider the **Heisenberg Uncertainty Principle**, which is usually taken to mean that an electron, for example, cannot have a precise value of its position and its momentum at the same time.
+
+> **Question:** Does this mean that it sometimes has position as a property and sometimes momentum but never both together?
+
+That understanding of the theory would mean that these properties are of the context rather than the object of the experiment. According to the ontology of objects and their properties being developed here, a particle (such as an electron) always has the properties of position and momentum, represented by an operator, but these properties take values by appearing in distinct **Fields of Sense**. This means that the context in which the particle position takes a value is different from that in which its momentum takes a value.
+
+## Mathematical Formulation of Spin
+
+We now consider a particle with spin $1/2$ (an electron) situated and free to move in three dimensions. Following @faddeev2000lectures, the electron combines its spin Hilbert space ($\mathbb{C}^2$) with that associated with the electron's movement in three dimensions ($\mathbb{R}^3$).
+
+The Hilbert space $\mathcal{H}$ for the electron's position and momentum is the space $L^2(\mathbb{R}^3)$ of square-integrable complex-valued functions. In mathematical notation, the state space with spin becomes the enlarged Hilbert space:
+
+$$\mathcal{H}_S = L^2(\mathbb{R}^3) \otimes \mathbb{C}^2$$
+
+This captures the intuition that the state function becomes a pair of complex-valued $L^2(\mathbb{R}^3)$ functions. For a pure state $\Psi(x)$ in $\mathcal{H}$, there are two orthogonal states in $\mathcal{H}_S$:
+
+$$\Psi_{\uparrow} = \begin{pmatrix} \Psi(x) \\ 0 \end{pmatrix} , \, \Psi_{\downarrow} = \begin{pmatrix} 0 \\ \Psi(x) \end{pmatrix}$$
+
+### Spin Operators and Pauli Matrices
+
+Focusing on the spin property $\hat{S}$, a self-adjoint operator $S$ on $\mathbb{C}^2$ can be represented as the linear combination of the identity matrix $I$ and the **Pauli matrices**:
+
+$$I = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}, \sigma_1 = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \sigma_2 = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}, \sigma_3 = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$$
+
+Quantum physics is brought into this mathematics by introducing the Planck constant $\hbar$ and defining the self-adjoint spin-$1/2$ operators as:
+
+$$S_j = \frac{\hbar}{2} \sigma_j, \quad j = 1, 2, 3 \qquad (1)$$
+
+These follow the angular momentum commutation relations:
+
+$$[S_1, S_2] = i\hbar S_3, \quad [S_2, S_3] = i\hbar S_1, \quad [S_3, S_1] = i\hbar S_2$$
+
+## Spin Eigenvalues and State Vectors
+
+The operators $S_j$ have eigenvalues $\pm \hbar/2$, which are the admissible values of the projections of the spin on some direction. The vectors
+
+$$\Psi_{\uparrow} = \begin{pmatrix} \Psi(x) \\ 0 \end{pmatrix} \quad \text{and} \quad \Psi_{\downarrow} = \begin{pmatrix} 0 \\ \Psi(x) \end{pmatrix}$$
+
+are eigenvectors of the operator $S_3$ with eigenvalues $+\hbar/2$ and $-\hbar/2$.
+
+The eigenvectors of $S_1$ and $S_2$ are linear combinations of $\Psi_{\uparrow}$ and $\Psi_{\downarrow}$. Therefore, these vectors describe states with a definite value of the third projection of the spin. Similar constructions can be made for the other spin components.
+
+## Non-Commutativity and Interaction
+
+As the components do not commute, they cannot simultaneously take precise values in all components. The spin will appear to interact with some other object, involving a magnetic interaction, to take a value of $+\hbar/2$ or $-\hbar/2$. Independent of the direction defined by the interaction, the possible values the spin property can take are $\pm \hbar/2$, with probabilities determined by the state of the electron. The probabilities of $\pm \hbar/2$ appearing sum to one.
+
+The property values appear when the appropriate **Field of Sense** is available. However, in relation to this point it should be noted that the isolated system has properties represented by Hermitian operators, such as the spin-$1/2$ $S_j$, that have eigenvalues $\pm \frac{1}{2}\hbar$ even in the absence of any interaction term coupling it to another object.
+
+The spin values are quantitative characteristics of the spin property, but the values will only actually **appear** once the appropriate Field of Sense is available to provide a context for an interaction with another object.
+
+The spin will appear to interact with some other object (involving a magnetic interaction) to take a value. A **Field of Sense** affords a context for the appearance of properties of the quantum object. The values only actually appear once the appropriate Field of Sense is available to provide a context for an interaction with another object.
