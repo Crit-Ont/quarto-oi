@@ -1,11 +1,11 @@
 # Bell’s Theorem {#sec-BellsTheorem}
 
-Bell’s theorem has an untidy history. It is even debatable whether it merits being called a theorem. However, it is extremely important, as we show below, and we endeavour to shape it into the form of a theorem.
+Bell’s theorem has an untidy history. It is even debatable whether it merits being called a theorem. However, it is extremely important, as we show below, and we endeavour to shape it more clearly into the form of a theorem. This chapter is an adaptation making extensive use of the presentation by @MyrvoldGenoveseShimony2020, which summarises the original work of @Bell1964, @CHSH1969, @Bell1971, @ClauserHorne1974, @Aspect1983 and @Mermin1986. The presentation here is intended to be self-contained, but the interested reader may consult the original sources.
 
 We present the proof in two parts, as in @MyrvoldGenoveseShimony2020:
 
-- formulate a measurement framework and then derive a version of the inequality;
-- demonstrate that quantum mechanics predicts violations of the inequality.
+1. formulate a measurement framework and then derive a version of the inequality;
+2. demonstrate that quantum mechanics predicts violations of the inequality.
 
 This will show a conflict between a statistical analysis of possible experiments that assumes a locality concept that we call Bell locality (BL), and textbook quantum mechanics (QM). Further discussion is then devoted to the challenge of deciding experimentally between BL and QM.
 
