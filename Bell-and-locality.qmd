@@ -1,4 +1,4 @@
-# Bell's Theorem and Locality {#sec-Bell-and-locality}
+# Bell's Theorem,  Locality and ontology {#sec-bell-metaphysics}
 
 ## Primary Literature & Philosophical Texts
 *   **Albert, D. Z.** (1992). *Quantum Mechanics and Experience*. Cambridge, MA: Harvard University Press.

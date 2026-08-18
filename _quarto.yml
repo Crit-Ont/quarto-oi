@@ -1,17 +1,17 @@
 project:
   type: book
-  
- 
+crossref:
+  sec-prefix: "the section titled" # Replaces "Section 1" with "the section titled 1"
 
 book:
-  title: "Ontological Investigations"
+  title: "Existence and Being"
   author: "Robert Johnston"  
   
   chapters:
     
 #    - cover.qmd
     - index.qmd
-    - about.qmd
+#    - about.qmd
 
     
     - part: "Ontological Foundations"
@@ -30,8 +30,8 @@ book:
               - Heisenberg_Potentiality_and_Quantum_Ontology.qmd
               - The_double_slit_experiment.qmd
               - Locality_and_quantum_mechanics.qmd
-#              - Bell-and-locality.qmd
               - bell-theorem.qmd
+              - Bell-and-locality.qmd
               - Comparison-of-quantum-physical-ontologies.qmd
               - the-heart-of-matter.qmd
               - Quantum_objects.qmd
@@ -73,23 +73,24 @@ format:
      - \usepackage{braket}
     title-block-style: none
     margin: 15mm
-    toc: true
+    toc: false
     number-sections: true
     documentclass: scrbook
     include-in-header:
-      text: 
+      text:
+        \usepackage{nameref}
          \usepackage{pdfpages}
          \renewcommand*{\partpagestyle}{empty}
          \usepackage{makeidx}
          \makeindex
     include-before-body:
       text: 
-        \includepdf[pages=1]{oi-cover.pdf}
+        \includepdf[pages=1]{eb-cover.pdf}
     include-after-body:
       text: 
         \printindex
   epub:
-    epub-cover-image: oi-cover.png
+    epub-cover-image: eb-cover.png
   html: 
     theme: cosmo
 

@@ -205,7 +205,7 @@ Of the potential outcomes of a given experiment, one and only one occurs, and he
 
 #### Experimental settings as free parameters
 
-It is assumed that the complete state $z$ is always sampled from the same probability distribution $\rho$, no matter what choice of experiment is made, and that, for this reason, the subset of experiments corresponding to any given choice of settings is a fair sample of the distribution of $z$. This will be discussed in more detail in @sec-bell-metaphysics.
+It is assumed that the complete state $z$ is always sampled from the same probability distribution $\rho$, no matter what choice of experiment is made, and that, for this reason, the subset of experiments corresponding to any given choice of settings is a fair sample of the distribution of $z$. This will be discussed in more detail in @sec-bell-metaphysics .
 
 #### Timing of experimental outcomes
 
