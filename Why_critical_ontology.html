@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>1&nbsp; Critical ontology and layers of reality – Existence and Being</title>
+<title>1&nbsp; Critical ontology and spheres of being – Existence and Being</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -92,6 +92,35 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -104,7 +133,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Why_critical_ontology.html">Ontological Foundations</a></li><li class="breadcrumb-item"><a href="./Why_critical_ontology.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Critical ontology and layers of reality</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Why_critical_ontology.html">Ontological Foundations</a></li><li class="breadcrumb-item"><a href="./Why_critical_ontology.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Critical ontology and spheres of being</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -147,7 +176,7 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Why_critical_ontology.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Critical ontology and layers of reality</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Critical ontology and spheres of being</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -335,8 +364,21 @@ div.csl-indent {
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Ideal Sphere</span></span>
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
+ <span class="menu-text">Ideal Sphere</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Entities in the Ideal Sphere.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Entites in the Ideal Sphere</span></span></a>
+  </div>
+</li>
+      </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
@@ -365,22 +407,30 @@ div.csl-indent {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#entities-spheres-and-layers" id="toc-entities-spheres-and-layers" class="nav-link active" data-scroll-target="#entities-spheres-and-layers"><span class="header-section-number">1.1</span> Entities, spheres and layers</a></li>
-  <li><a href="#dasein-and-sosein" id="toc-dasein-and-sosein" class="nav-link" data-scroll-target="#dasein-and-sosein"><span class="header-section-number">1.2</span> “Dasein” and “Sosein”</a>
+  <li><a href="#critical-ontology" id="toc-critical-ontology" class="nav-link active" data-scroll-target="#critical-ontology"><span class="header-section-number">1.1</span> Critical ontology</a></li>
+  <li><a href="#entities-spheres-and-layers" id="toc-entities-spheres-and-layers" class="nav-link" data-scroll-target="#entities-spheres-and-layers"><span class="header-section-number">1.2</span> Entities, spheres and layers</a>
   <ul class="collapse">
-  <li><a href="#translation" id="toc-translation" class="nav-link" data-scroll-target="#translation"><span class="header-section-number">1.2.1</span> Translation</a></li>
+  <li><a href="#dasein-and-sosein" id="toc-dasein-and-sosein" class="nav-link" data-scroll-target="#dasein-and-sosein"><span class="header-section-number">1.2.1</span> “Dasein” and “Sosein”</a></li>
+  <li><a href="#the-real-sphere" id="toc-the-real-sphere" class="nav-link" data-scroll-target="#the-real-sphere"><span class="header-section-number">1.2.2</span> The real sphere</a></li>
+  <li><a href="#sec-layers" id="toc-sec-layers" class="nav-link" data-scroll-target="#sec-layers"><span class="header-section-number">1.2.3</span> Layers and categories of reall being</a></li>
   </ul></li>
-  <li><a href="#critical-ontology" id="toc-critical-ontology" class="nav-link" data-scroll-target="#critical-ontology"><span class="header-section-number">1.3</span> Critical ontology</a></li>
-  <li><a href="#sec-layers" id="toc-sec-layers" class="nav-link" data-scroll-target="#sec-layers"><span class="header-section-number">1.4</span> Layers of being</a></li>
+  <li><a href="#ideal-being---the-ideal-sphere" id="toc-ideal-being---the-ideal-sphere" class="nav-link" data-scroll-target="#ideal-being---the-ideal-sphere"><span class="header-section-number">1.3</span> Ideal being - the Ideal Sphere</a>
+  <ul class="collapse">
+  <li><a href="#real-being-and-ideal-being" id="toc-real-being-and-ideal-being" class="nav-link" data-scroll-target="#real-being-and-ideal-being"><span class="header-section-number">1.3.1</span> Real Being and Ideal Being</a></li>
+  </ul></li>
+  <li><a href="#the-ontological-status-of-scientific-theories" id="toc-the-ontological-status-of-scientific-theories" class="nav-link" data-scroll-target="#the-ontological-status-of-scientific-theories"><span class="header-section-number">1.4</span> The ontological status of scientific theories</a>
+  <ul class="collapse">
+  <li><a href="#scientific-theories-physical-laws-and-ideal-objects" id="toc-scientific-theories-physical-laws-and-ideal-objects" class="nav-link" data-scroll-target="#scientific-theories-physical-laws-and-ideal-objects"><span class="header-section-number">1.4.1</span> Scientific Theories, Physical Laws, and Ideal Objects</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Why_critical_ontology.html">Ontological Foundations</a></li><li class="breadcrumb-item"><a href="./Why_critical_ontology.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Critical ontology and layers of reality</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Why_critical_ontology.html">Ontological Foundations</a></li><li class="breadcrumb-item"><a href="./Why_critical_ontology.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Critical ontology and spheres of being</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="sec-Why_critical_ontology" class="quarto-section-identifier"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Critical ontology and layers of reality</span></span></h1>
+<h1 class="title"><span id="sec-Why_critical_ontology" class="quarto-section-identifier"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Critical ontology and spheres of being</span></span></h1>
 </div>
 
 
@@ -409,21 +459,28 @@ format:
 <blockquote class="blockquote">
 <p><strong>Aside:</strong> <em>Critical ontology</em> is a phrase used elsewhere in philosophy studies <span class="citation" data-cites="Richardson2023-RICCSO-2">(<a href="references.html#ref-Richardson2023-RICCSO-2" role="doc-biblioref">Richardson 2023</a>)</span>, but in a different sense to that used here. For example, as the branch of philosophy that studies social ontology in order to critique specific ideologies or “end” to <em>social injustice</em>. This has given rise to critical studies in the social sciences and underpins identity politics that then itself tends to become ideological. The use of “critical” in the set of investigations presented here has nothing to do with critical studies or critical theory or any of its ideological derivatives. “Critical” in these investigations means a stance or approach that examines theories, claims and proposals for consistency and correspondence with the facts together with a recognition that there is always the possibility of error. This comprehensively fallibilist stance should apply to all invesitigations but will be explicitly recognised in this one.</p>
 </blockquote>
-<p>In addition to critical historical investigation, ontology needs ideas, terminology and structure. Hartmann’s concepts of <em>heterogeneous ontic spheres</em> and <em>layers</em>, introduced above provide a starting point for this set of investigations but they will not escape critique either. </p>
-<section id="entities-spheres-and-layers" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="entities-spheres-and-layers"><span class="header-section-number">1.1</span> Entities, spheres and layers</h2>
-<p>The phrase of Hartmann’s <em>What is as such</em> will be taken as the point of departure for these investigations. It will be seen that there are many ways of being and the way things are depends on other things and the way they are. It is time to introduce some terminology.</p>
+<p>In addition to critical historical investigation, ontology needs ideas, terminology and structure. Hartmann’s concepts of <em>heterogeneous ontic spheres</em> and <em>layers</em>, provide a starting point for this set of investigations but they will not escape critique either. </p>
+<section id="critical-ontology" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="critical-ontology"><span class="header-section-number">1.1</span> Critical ontology</h2>
+<p>For the purpose of these investigations Hartmann’s work provides not just a philosophical system but a way of investigating <em>being</em> systematically. It is critically constructive and can be adopted as a way of proceeding without agreeing with Hartmann’s specific conclusions.</p>
+<p>Through step by step investigation we can gain greater insight into the constituents of the world. In these investigations topics will be tackled in physical and social science as well as philosophy where ambiguity over what exists or dogmatic positions risk hiding the nature of what there is and how it acts. For example, in physics, the status of space and time has been debated for millennia. Some claim that one or the other or both are illusory. In economics <em>homo economicus</em> is often declared not to exist but can be found implicitly and explicitly in many textbooks.</p>
+<p>It is the current debate on the foundations of quantum mechanics on the status of the wavefunction and the particle that rekindled my interest in ontological questions. So quantum physics will have a number of chapters devoted to it and be referred to throughout these investigations.</p>
+<p>Hartmann’s philosophy will provide the initial structure for theses ontological investigations. A very useful and concise introduction to Hartmann’s philosophy as whole is provided by Predrag Cicovacki in The Analysis of Wonder <span class="citation" data-cites="cicovacki2014">(<a href="references.html#ref-cicovacki2014" role="doc-biblioref">Cicovacki 2014</a>)</span>.</p>
+</section>
+<section id="entities-spheres-and-layers" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="entities-spheres-and-layers"><span class="header-section-number">1.2</span> Entities, spheres and layers</h2>
+<p>The phrase of Hartmann <em>What is as such</em> will be taken as the point of departure for these investigations. It will be seen that there are many ways of being and the way things are depends on other things and the way they are. It is time to introduce some terminology.</p>
 <p>The term “entity” will be used for <em>what is</em>. An entity - purely as such, whatever it may be in its particulars - exists indifferently to whether it is known or not known; whether it is knowable or unknowable. Without entities there would be nothing to have properties, to make appearances nor to induce perceptions.</p>
-<p>The “object” is related to the entity and is used when the entity stands in relation to another entity. That is, it becomes an object through relationship with other objects.</p>
+<p>The “object” is related to the entity and is used when the entity stands in relation to another entity. That is, an entity becomes an object through relationship with other objects.</p>
 <p>The philosophical task of organising what exists into categories can be traced back to Aristotle, at least, and ‘object’ is a candidate for the category under which everything falls but so, perhaps, is “thing” or “entity”. Nominal definitions can only provide an arbitrary distinction between the terms and so do not provide progress. Rather than just formally fixing technical definitions, use will be made of intuition from normal usage. This normal usage will provide guidance on the distinctions to be introduced above:</p>
 <ul>
 <li>“Entity” will be used to designate that which exists as such. <em>Entities will have their own particular way of being.</em></li>
 <li>“Thing” can designate a physical entity. <em>Contrary to some physicalist ontologies not all entities are things.</em></li>
 <li>An “object” is an entity that has properties, and these properties appear in relation to other entities.</li>
 </ul>
-<p>In physical theories the entities of interest will be things that are objects. As we will see in our discussion of quantum physics, what makes an object physical will require development of the concept. Already it may seem that objects and things are the entities of interest and society can dispense with discussion of featureless entities. What is gained by insisting on the investigation of “entities” is the recognition that existence is not merely a matter of appearance.</p>
+<p>In physical theories the entities of interest will be things that are objects. As we will see in the discussion of quantum physics, what makes an object physical will require development of the concept. Already it may seem that objects and things are the entities of interest and society can dispense with discussion of featureless entities. What is gained by insisting on the investigation of general “entities” is the recognition that existence is not merely a matter of appearance.</p>
 <p>Appearance only provides access to the object. This notion of appearance is interactional and reflexive. In particular, considering candidate things, quantum particles such as electrons, protons and positrons are objects and it is through their properties that they interact with other objects, and it is their properties that are observables in the sense of <em>standard quantum mechanics</em>. However, there are aspects to them being <em>things</em> that will mean extending the concept of physical from things in space and time.</p>
-<p>The ontological structures introduced by Hartmann include:</p>
+<p>In addition to defining terms for different types of things, Hartmann introduces structure:</p>
 <ul>
 <li>The ideal sphere of being</li>
 <li>The real sphere of being</li>
@@ -431,8 +488,23 @@ format:
 <li>The Dasein and Sosein relationship.</li>
 </ul>
 <p> </p>
-<p>A major purpose of Hartmann’s ontology is to clarify the mistakes and pitfalls in both idealism and realism. These two “isms” make the dogmatic claim that fundamentally everything is either immaterial (Ideal) or everything physical (Real). Taking a critical ontology approach makes clear that there is no need to follow either dogmatic path but claims it is wrong to identify the real with the material. The real sphere is much larger.</p>
-<p>The ideal sphere includes entities such a logic, mathematics, scientific theories. It is also the sphere where ethical and aesthetic values reside. The ideal and real spheres are not separate forms of existence but different ways of being. This is a position going back to Plato who argued that ideal being is superior to material being and more real because eternal. In contrast Hartmann argues that the real (as set out below) is the ontological stronger sphere. The two spheres are distinguished in that everything real is individual, unique, destructible; whereas everything ideal is universal, returnable, always existing.</p>
+<p>A major purpose of Hartmann’s ontology is to clarify the mistakes and pitfalls in both idealism and realism. These two “isms” make the dogmatic claim that fundamentally everything is either immaterial (Ideal) or everything physical (Real). Taking a critical ontology approach makes clear that there is no need to follow either dogmatic path but claims it is also wrong to identify the real with the material. The real sphere is much larger.</p>
+<p>The ideal sphere includes entities such a logic, mathematics, scientific theories. It is also the sphere where ethical and aesthetic values reside. The ideal and real spheres are not separate forms of existence but different ways of being. This is a position going back to Plato who argued that ideal being is superior to material being and more real because eternal. In contrast Hartmann argues that the real (as set out below) is not superior but is the ontological stronger sphere. The two spheres are distinguished in that everything real is individual, unique, destructible; whereas everything ideal is universal, returnable, always existing.</p>
+<section id="dasein-and-sosein" class="level3" data-number="1.2.1">
+<h3 data-number="1.2.1" class="anchored" data-anchor-id="dasein-and-sosein"><span class="header-section-number">1.2.1</span> “Dasein” and “Sosein”</h3>
+<p>“Dasein” and “Sosein” (“being there” and “being so” although the original German will be used in the following translation) are interacting ways of being in both spheres. This is illustrated by a quotation from <span class="citation" data-cites="hartmann1948">Hartmann (<a href="references.html#ref-hartmann1948" role="doc-biblioref">1948</a>)</span> page 123:</p>
+<blockquote class="blockquote">
+<p>Das Dasein des Baumes an seiner Stelle “ist” selbst ein Sosein des Waldes, der Wald wäre anders ohne ihn; das Dasein des Astes am Baum “ist” ein Sosein des Baumes; das Dasein des Blattes am Aste “ist” ein Sosein des Astes; das Dasein der Rippe im Blatt “ist” ein Sosein des Blattes. Diese Reihe läßt sich nach beiden Seiten verlängern; immer ist das Dasein des einen zugleich Sosein des anderen. Aber sie läßt sich auch umkehren: das Sosein des Blattes “ist” das Dasein der Rippe, das Sosein des Astes ist das Dasein des Blattes usf. Daß es immer nur ein Bruchstück des Soseins ist, das im Dasein von etwas anderem besteht, daran wird man hierbei keinen Anstoß nehmen dürfen. Denn es handelt sich gar nicht um die Vollständigkeit des Soseins. Wohl aber läßt sich sagen, daß auch die übrigen Bruchstücke des Soseins auf dieselbe Weise im Dasein von immer wieder anderem und anderem bestehen.</p>
+</blockquote>
+<section id="translation" class="level4" data-number="1.2.1.1">
+<h4 data-number="1.2.1.1" class="anchored" data-anchor-id="translation"><span class="header-section-number">1.2.1.1</span> Translation</h4>
+<blockquote class="blockquote">
+<p>The Dasein of the tree in its place “is” itself a Sosein of the forest, the forest would be different without it; the Dasein of the branch on the tree “is” a Sosein of the tree; the Dasein of the leaf on the branch “is” a Sosein of the branch; the Dasein of the rib in the leaf “is” a Sosein of the leaf. This series can be extended to both sides; always the Dasein of one is at the same time Sosein of the other. But it can also be reversed: the Sosein of the leaf “is” the Dasein of the rib, the Sosein of the branch is the Dasein of the leaf, etc. That it is always only a fragment of the Soseins, which consists in the Dasein of something else, must not be taken negatively. Because it is not at all about the completeness of being. But it can be said that the other fragments of Sosein also exist in the repeating existence of always different and different things.</p>
+</blockquote>
+</section>
+</section>
+<section id="the-real-sphere" class="level3" data-number="1.2.2">
+<h3 data-number="1.2.2" class="anchored" data-anchor-id="the-real-sphere"><span class="header-section-number">1.2.2</span> The real sphere</h3>
 <p>The real sphere consists of the natural world of common experience and its elaboration through scientific investigation. This sphere has four layers or strata (Schichten): inorganic, organic, psychic, and spiritual. </p>
 <ul>
 <li><strong>Inorganic stratum</strong>, with categories such as space, time, process, substance, is organised through causality.</li>
@@ -441,32 +513,12 @@ format:
 <li><strong>Spiritual stratum</strong>, that includes categories of fear, hope, will, freedom, thought, personality, but also society, historicity, or intersubjectivity. Its organisation principle is, according to Hartmann, Finality <span class="citation" data-cites="hartmann1949b">(<a href="references.html#ref-hartmann1949b" role="doc-biblioref">Hartmann 1949a, 58</a>)</span>. In this layer and in the psychic we are all players and this changes what a method of scientific exploration of being is going to be. The work of Hayek will provide a starting point for such deliberations <span class="citation" data-cites="Hayek1952SensoryOrder">(<a href="references.html#ref-Hayek1952SensoryOrder" role="doc-biblioref">Hayek 1952</a>)</span></li>
 </ul>
 <blockquote class="blockquote">
-<p><strong>Note:</strong> <em>Spirit</em> is employed here in the sense of the German term <em>Geist</em> that originates from the German idealist tradition influenced by Hegel among others. However it is also used in standard German. For example, in Geisteswissenschaft (Humanities)—and its meaning covers both individual mind as well as superindividual culture, which is why it lacks an adequate English translation. It need not be interpreted in any religious sense here. In addition, “psychic” relates to mind and mental - no interpretation in terms of occult “psychic phenomena” is intended.</p>
+<p><strong>Note:</strong> <em>Spirit</em> is employed here in the sense of the German term <em>Geist</em> that originates from the German idealist tradition influenced by Hegel among others. However it is also used in standard German. For example, in Geisteswissenschaft (Humanities) and its meaning covers both individual mind as well as superindividual culture, which is why it lacks an adequate English translation. It need not be interpreted in any religious sense here. In addition, “psychic” relates to mind and mental - no interpretation in terms of occult “psychic phenomena” is intended.</p>
 </blockquote>
-<p>In the stratified structure the organic layer builds on the inorganic and the psychic builds on the organic. It is only through the system of categories that apply to them that distinguish the levels. The relationship between the layers and their categories requires systemic treatment and will be covered in a separate section (<a href="#sec-layers" class="quarto-xref"><span>Section 1.4</span></a>).</p>
+<p>In the stratified structure the organic layer builds on the inorganic and the psychic builds on the organic. It is only through the system of categories that apply to them that distinguish the levels. The relationship between the layers and their categories requires systemic treatment and will be covered in a separate section (<a href="#sec-layers" class="quarto-xref"><span>Section 1.2.3</span></a>).</p>
 </section>
-<section id="dasein-and-sosein" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="dasein-and-sosein"><span class="header-section-number">1.2</span> “Dasein” and “Sosein”</h2>
-<p>“Dasein” and “Sosein” (“being there” and “being so” although the original German will be used in the following translation) are interacting ways of being in both spheres. This is illustrated by a quotation from <span class="citation" data-cites="hartmann1948">Hartmann (<a href="references.html#ref-hartmann1948" role="doc-biblioref">1948</a>)</span> page 123:</p>
-<blockquote class="blockquote">
-<p>Das Dasein des Baumes an seiner Stelle “ist” selbst ein Sosein des Waldes, der Wald wäre anders ohne ihn; das Dasein des Astes am Baum “ist” ein Sosein des Baumes; das Dasein des Blattes am Aste “ist” ein Sosein des Astes; das Dasein der Rippe im Blatt “ist” ein Sosein des Blattes. Diese Reihe läßt sich nach beiden Seiten verlängern; immer ist das Dasein des einen zugleich Sosein des anderen. Aber sie läßt sich auch umkehren: das Sosein des Blattes “ist” das Dasein der Rippe, das Sosein des Astes ist das Dasein des Blattes usf. Daß es immer nur ein Bruchstück des Soseins ist, das im Dasein von etwas anderem besteht, daran wird man hierbei keinen Anstoß nehmen dürfen. Denn es handelt sich gar nicht um die Vollständigkeit des Soseins. Wohl aber läßt sich sagen, daß auch die übrigen Bruchstücke des Soseins auf dieselbe Weise im Dasein von immer wieder anderem und anderem bestehen.</p>
-</blockquote>
-<section id="translation" class="level3" data-number="1.2.1">
-<h3 data-number="1.2.1" class="anchored" data-anchor-id="translation"><span class="header-section-number">1.2.1</span> Translation</h3>
-<blockquote class="blockquote">
-<p>The Dasein of the tree in its place “is” itself a Sosein of the forest, the forest would be different without it; the Dasein of the branch on the tree “is” a Sosein of the tree; the Dasein of the leaf on the branch “is” a Sosein of the branch; the Dasein of the rib in the leaf “is” a Sosein of the leaf. This series can be extended to both sides; always the Dasein of one is at the same time Sosein of the other. But it can also be reversed: the Sosein of the leaf “is” the Dasein of the rib, the Sosein of the branch is the Dasein of the leaf, etc. That it is always only a fragment of the Soseins, which consists in the Dasein of something else, must not be taken negatively. Because it is not at all about the completeness of being. But it can be said that the other fragments of Sosein also exist in the repeating existence of always different and different things.</p>
-</blockquote>
-</section>
-</section>
-<section id="critical-ontology" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="critical-ontology"><span class="header-section-number">1.3</span> Critical ontology</h2>
-<p>For the purpose of these investigations Hartmann’s work provides not just a philosophical system but a way of investigating <em>being</em> systematically. It is critically constructive and can be adopted as a way of proceeding without agreeing with Hartmann’s specific conclusions.</p>
-<p>Through step by step investigation we can gain greater insight into the constituents of the world. In these investigations topics will be tackled in physical and social science as well as philosophy where ambiguity over what exists or dogmatic positions risk hiding the nature of what there is and how it acts. For example, in physics, the status of space and time has been debated for millennia. Some claim that one or the other or both are illusory. In economics <em>homo economicus</em> is often declared not to exist but can be found implicitly and explicitly in many textbooks.</p>
-<p>It is the current debate on the foundations of quantum mechanics on the status of the wavefunction and the particle that rekindled my interest in ontological questions. So quantum physics will have a number of chapters devoted to it and be referred to throughout these investigations.</p>
-<p>Hartmann’s philosophy will provide the initial structure for theses ontological investigations. A very useful and concise introduction to Hartmann’s philosophy as whole is provided by Predrag Cicovacki in The Analysis of Wonder <span class="citation" data-cites="cicovacki2014">(<a href="references.html#ref-cicovacki2014" role="doc-biblioref">Cicovacki 2014</a>)</span>.</p>
-</section>
-<section id="sec-layers" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="sec-layers"><span class="header-section-number">1.4</span> Layers of being</h2>
+<section id="sec-layers" class="level3" data-number="1.2.3">
+<h3 data-number="1.2.3" class="anchored" data-anchor-id="sec-layers"><span class="header-section-number">1.2.3</span> Layers and categories of reall being</h3>
 <p></p>
 <p>To discuss ontology in general and to compare competing ontological proposals some structure is useful. This structure will help to place <em>candidate beings</em> in relation to others, understand their way of being and, for example, avoid the category mistake of identifying elements of physical reality with their mathematical representation. Here we will explore, in general terms, the proposal that reality is indeed stratified and secondly what that stratification may be. In <em>critical ontology</em> it will be important to distinguish whether these levels are levels of reality <em>per se</em> or levels in a description of reality.</p>
 <p>The starting point cannot just be comprehensive scepticism about whether anything exists or not. That will get us nowhere. We will start by taking the phenomena around us as the they appear. There appear to be things that take up space and are static. There appear to be things that take space and grow. There appear to be things that have some purpose and make choices. There appear to be things that are made up of other things. In addition, there appear to be beings with emotional states and awareness of making choices. There is also awareness of resistance or pushback from other things. There is awareness of being the capacity of some beings to change the state of other things. We may be mistaken about particular things and their relationship to each other but the appearances are the appearances. In talking about things and beings, we have implicitly used categories such a space, time, choice, emotion, awareness and substance. The categories will play an important role is characterising the levels in which beings exist. There will be separate chapter on categories.</p>
@@ -624,6 +676,122 @@ format:
 <p>Hartmann’s model of reality includes mind and spirit superposed on an ontologically stronger foundation of life and matter. There is, however, a feedback loop that is not explicit in the diagram. The objectivated spirit gives rise to artifacts, such as books and architecture, that are also actualised as things at the material level.</p>
 <p>For example, this content of this investitgation exists as objectivated spirit. It came into being because of my choice and was enabled by the infrastructure supplied by the web. Making and maintaining the documentation are choices made by me at the level of my personal spirit. The physical document is dependent on organised matter (inorganic level) the organisation of it is objectivated spirit because it was designed. The document and its chapters are captured and encoded in the infrastructure. The chapters may be instantiated on the screen of a reader’s device. The readers use their sense organs and brain (organic level) to access the information that is processed through their psychic level and, hopefully, understood at the level of their personal spirit. The readers and I form a loose community that exists as objective spirit.</p>
 <p>Simple beings such as electrons may only inhabit the inorganic level but the existence of complex beings may be across many or all strata. This complex existence is a process rather than a hierarchy.</p>
+</section>
+</section>
+<section id="ideal-being---the-ideal-sphere" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="ideal-being---the-ideal-sphere"><span class="header-section-number">1.3</span> Ideal being - the Ideal Sphere</h2>
+<p>Nicolai Hartmann was reacting to a philosophical tradition that had given great weight to the ideal. This had the consequences that such idealism often neglected the reality of the material and spiritual layers of being. To counter this, Hartmann developed a critical ontology that recognised the ideal as a distinct sphere of being but one that is not ontologically superior to the real. The ideal sphere is not a higher level of reality but a different mode of being.</p>
+<p>The ideal sphere of being is the sphere of universals, laws, and values. It includes mathematical objects, logical laws, and, ethical and aesthetic values. These entities are not material; they do not occupy space or time in the same way physical objects do. Instead, they exist as abstract forms that can be instantiated in various ways.</p>
+<p>Ideal being has the following traits:</p>
+<ol type="1">
+<li><p>Atemporality (Unzeitlichkeit): Ideal entities do not come into existence and do not perish. For example: the Pythagorean theorem, the number <span class="math inline">\(\pi\)</span>,logical implication, do not begin to exist when discovered. This contrasts sharply with real entities, which are temporal.</p></li>
+<li><p>Universality (Allgemeinheit): Ideal beings are universal rather than individual. Examples are: “triangle”, “redness” and “justice”. The ideal entity is repeatable in indefinitely many instances.</p></li>
+<li><p>Non-causal Being: Ideal objects neither act causally nor are acted upon. The number 7 does not cause anything. Likewise, the law of non-contradiction has no causal efficacy.</p></li>
+<li><p>Necessity: Ideal relations often possess a stronger necessity than real relations. For example: mathematical truths and logical consequences hold necessarily and independently of empirical conditions.</p></li>
+</ol>
+<section id="real-being-and-ideal-being" class="level3" data-number="1.3.1">
+<h3 data-number="1.3.1" class="anchored" data-anchor-id="real-being-and-ideal-being"><span class="header-section-number">1.3.1</span> Real Being and Ideal Being</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Real Being</th>
+<th>Ideal Being</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Temporal</td>
+<td>Atemporal</td>
+</tr>
+<tr class="even">
+<td>Individual</td>
+<td>Universal</td>
+</tr>
+<tr class="odd">
+<td>Causal</td>
+<td>Non-causal</td>
+</tr>
+<tr class="even">
+<td>Subject to becoming</td>
+<td>Immutable</td>
+</tr>
+<tr class="odd">
+<td>Exists concretely</td>
+<td>Possesses validity (<em>Geltung</em>)</td>
+</tr>
+<tr class="even">
+<td>Governed by real necessity</td>
+<td>Governed by ideal necessity</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="the-ontological-status-of-scientific-theories" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="the-ontological-status-of-scientific-theories"><span class="header-section-number">1.4</span> The ontological status of scientific theories</h2>
+<p>As a human product, a theory such as general relativity, evolutionary theory, or quantum mechanics is historically developed, written in books, taught by scientists, and revised over time. In this sense it belongs to the real sphere, because it is a cultural and intellectual achievement occurring in history. It inhabits the spiritual layer of the real sphere because it is a product of human thought and culture. However, the content of the theory, once articulated, is not identical with any particular physical inscription or psychological act. Like a proof or a theorem, its meaning possesses a degree of ideality. Hartmann often treats meanings, logical relations, and mathematical structures as belonging to ideal being.</p>
+<p>As a system of meanings the propositional content of the theory, once articulated, is not identical with any particular physical inscription or psychological act. Like a proof or a theorem, its meaning possesses a degree of ideality.</p>
+<p>There is a distinction to be made between:</p>
+<ul>
+<li>the theory itself as a historically produced conceptual construction, and</li>
+<li>the ideal structures, laws, and categories that the theory may successfully discover.</li>
+</ul>
+<p>The latter belong to the ideal sphere but the former does not as it belongs to the spiritual layer of the real sphere.</p>
+<p>An example is the theory of general relativity. The theory was developed by Einstein and others, written in papers and books, and taught in universities. This historical and cultural process belongs to the real sphere. However, the mathematical structures and physical laws that the theory describes, such as the curvature of spacetime and the relationship between mass-energy and geometry, belong to the ideal sphere.</p>
+<p>Take Einstein’s field equations as an example. The equations themselves, as written in Einstein’s 1915 papers, are physical inscriptions on paper (or digital representations today) and thus belong to the real sphere. The mathematical relations expressed in those equations, such as the relationship between the Einstein tensor and the stress-energy tensor, belong to the ideal sphere. The physical gravitational processes described by the equations, such as the bending of light around massive objects or the expansion of the universe, belong to the real sphere.</p>
+<p>If physical laws belonged wholly to the ideal sphere, they would have only ideal necessity like mathematical truths. If they belonged wholly to the real sphere, they would be events among other events. Neither option need be accepted. Instead, natural laws seem to occupy a mediating role. They express real necessity, yet they do so through universal structures that are not themselves individual events.</p>
+<p>So, strictly speaking, the clearest inhabitants of the ideal sphere are:</p>
+<ul>
+<li>mathematical objects,</li>
+<li>logical relations,</li>
+<li>essences,</li>
+<li>values,</li>
+</ul>
+<p>whereas the status of natural laws is more nuanced because they articulate the lawful structure of reality itself rather than constituting a separate realm of ideal objects like numbers or values.</p>
+<section id="scientific-theories-physical-laws-and-ideal-objects" class="level3" data-number="1.4.1">
+<h3 data-number="1.4.1" class="anchored" data-anchor-id="scientific-theories-physical-laws-and-ideal-objects"><span class="header-section-number">1.4.1</span> Scientific Theories, Physical Laws, and Ideal Objects</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 29%">
+<col style="width: 70%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Item</th>
+<th>Critical Ontology Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Scientific theory as historical achievement</td>
+<td>Real sphere (spiritual layer)</td>
+</tr>
+<tr class="even">
+<td>Mathematical structures within a theory</td>
+<td>Ideal sphere</td>
+</tr>
+<tr class="odd">
+<td>Logical relations within a theory</td>
+<td>Ideal sphere</td>
+</tr>
+<tr class="even">
+<td>Natural laws</td>
+<td>Best understood as expressions of real necessity and categorial structure</td>
+</tr>
+<tr class="odd">
+<td>Numbers</td>
+<td>Ideal sphere</td>
+</tr>
+<tr class="even">
+<td>Values</td>
+<td>Ideal sphere</td>
+</tr>
+<tr class="odd">
+<td>Concrete physical events</td>
+<td>Real sphere</td>
+</tr>
+</tbody>
+</table>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
@@ -655,6 +823,7 @@ Hayek, F. A. 1952. <em>The Sensory Order: An Inquiry into the Foundations of The
 Richardson, Kevin. 2023. <span>“Critical Social Ontology.”</span> <em>Synthese</em> 201 (6): 1–19. <a href="https://doi.org/10.1007/s11229-023-04197-0">https://doi.org/10.1007/s11229-023-04197-0</a>.
 </div>
 </div>
+</section>
 </section>
 
 </main> <!-- /main -->
